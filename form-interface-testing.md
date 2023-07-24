@@ -154,3 +154,52 @@
 
 10. What could be improved?
 - some of the spacing. 
+
+---
+
+## Hunter
+
+### site-wide
+
+1. Could you find them? Was it difficult? Easy?
+- a little dificult becuase the links on the index point towards "localhost" not the pe server.
+
+2. Was it at user/projects/e4p?
+- yes, after I figured out how to put in the file path manually
+
+
+3. How is the index page? Is it clear what the page is for a first-time visitor? Are the links clear?
+- it is clear, but could use and explanation of what the excercises are.
+
+### per form - Character Counter
+
+1. Does it match the rest of the site? 
+- similar. they are all clear and match eachother.
+
+2. How is the storytelling? Is it clear what the forms are supposed to do? (imagine a grandparent is trying to use it)
+- I think they could use a little more explanation.
+
+3. Are the inputs and buttons legible? Do they have labels? 
+- yes, it all looks good.
+
+4. Does the form work with the expected input?
+- some of them, like the simple math form allow letters as well as numbers
+
+5. Can you break it by putting in other values like 0 and empty?
+- yes, in the retirement form for example, it still gives an answer even if the input is a letter.
+
+6. Do things jump around when you interact with them?
+- no
+
+7. Is the outcome clear?
+- I think so
+
+8. Do the form styles match across all forms?
+- yes
+
+9. Is it a pleasure to use?
+- yes, it's clear and I especially like the gray block that the results are displayed in
+
+10. What could be improved?
+- some of the descriptions and contstraints. 
+
