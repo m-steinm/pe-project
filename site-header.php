@@ -2,7 +2,7 @@
 	
 <inner-column>
 	<header> 
-	<nav>
+	<nav class="calm-voice">
 		<ul>
 			<li> <a href="index.php">Home</a></li>
 			<li> <a href="projects.php">Projects</a></li>

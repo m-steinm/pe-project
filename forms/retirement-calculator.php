@@ -1,31 +1,5 @@
-
-
-<style>
-	
-	.field {
-		display: flex;
-		flex-direction: column;
-		margin-top: 20px;
-	}
-
-	input {
-		margin-top: 4px;
-	}
-
-	form {
-		max-width: 400px;
-		padding: 20px;
-	}
-
-	button {
-		margin-top: 20px;
-	}
-
-	}
-
-</style>
-
-
+<?php include("head.php");?>
+<?php include("site-header.php");?> 
 
 <?php 
 
@@ -69,6 +43,8 @@
 
 ?>
 
+<inner-column>
+
 <form method="POST">
 	<a href="?"><h1>Retirement Caculator</h1></a>
 
@@ -96,6 +72,8 @@
 	<?php echo $message ?>
 	
 </form>
+
+</inner-column>
 
 
 

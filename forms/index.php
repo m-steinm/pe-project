@@ -1,5 +1,5 @@
-<?php include("http://localhost:8888/head.php");?>
-<?php include("/site-header.php");?> 
+<?php include("head.php");?>
+<?php include("site-header.php");?> 
 
   <inner-column>
   		<h1 class="loud-voice">Forms</h1>

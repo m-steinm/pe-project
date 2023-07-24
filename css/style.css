@@ -1,5 +1,6 @@
 @import "meyer-reset.css";
 @import "typography.css";
+@import "form.css";
 
 *{
 	box-sizing: border-box;
@@ -79,13 +80,15 @@ intro-cards li h2 + p{
 
 .projects-card {
 	display: flex;
+	flex-direction: column;
 /*	border: 2px solid red;*/
 }
 
-.projects {
-	display: flex;
-	flex-direction: column;
-/*	border: 2px solid red;*/
+div h2{
+	margin-top: 20px;
+/*	border: 2px solid green;*/
+
+
 
 
 }

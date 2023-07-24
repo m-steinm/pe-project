@@ -54,10 +54,10 @@ p a {
 	transition: color .2s;
 }
 
-li a { /* "all links in paragraphs..." */
+li a {
 	display: inline-block;
 	text-decoration: underline var(--highlight);
-	color: inherit; /* put back styles for normal links */
+	color: inherit;
 	transition: color .2s;
 }
 
