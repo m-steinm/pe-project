@@ -112,36 +112,45 @@
 ### site-wide
 
 1. Could you find them? Was it difficult? Easy? 
-  -
+  - Pretty easy. Code is right on the homepage, but "code" could maybe be more specific
 
 2. Was it at user/projects/e4p?
+- slightly different, spelling out exercises-for-programmers
 
 
 3. How is the index page? Is it clear what the page is for a first-time visitor? Are the links clear?
+- explains very clearly what the excercises are and what book they come from
 
-
-### per form
+### per form - Character Counter
 
 1. Does it match the rest of the site? 
+- Yeah, it's nice
+
+2. How is the storytelling? Is it clear what the forms are supposed to do? (imagine a grandparent is trying to use it)
+- if I didn't know what a string was it might be a little confusing
 
 
-2. How is the storytelling? Is it clear what the forms are supposed to do? (imagine a grandparent is trying to use it)d
-
-
-3. Are the inputs and buttons legible? Do they have labels?
+3. Are the inputs and buttons legible? Do they have labels? 
+- yes. "your string" could use a little space from the count button so it's more clearly attached to the text box
 
 
 4. Does the form work with the expected input?
+- yes
 
 5. Can you break it by putting in other values like 0 and empty?
-
+- no
 
 6. Do things jump around when you interact with them?
+- the box can be adjusted by the user, without any real reason for that to be an option it might be better if it was one size.
 
 7. Is the outcome clear?
+- yes
 
 8. Do the form styles match across all forms?
+- yes
 
 9. Is it a pleasure to use?
+- yes
 
 10. What could be improved?
+- some of the spacing. 
