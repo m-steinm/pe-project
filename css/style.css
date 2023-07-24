@@ -1,0 +1,122 @@
+@import "meyer-reset.css";
+@import "typography.css";
+
+*{
+	box-sizing: border-box;
+}
+
+p {
+	font-size: 1rem;
+	max-width: 70ch;
+	line-height: 1.4;
+}
+
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+p a {
+	display: inline;
+	text-decoration: none;
+	font-weight: 700;
+	color: var(--alternate);
+}
+
+picture {
+	display: block;
+}
+
+
+img { 
+  display: block;
+  width: 100%;
+  height: auto; 
+}
+
+
+/*SITE STRUCTURE*/
+
+body{
+	padding: 20px;
+}
+
+main {
+	margin-top: 30px;
+}
+
+
+footer{
+
+
+}
+
+inner-column {
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+/*	border: 2px solid green;*/
+	display: flex;
+}
+
+intro-cards{
+	margin-top: 0px;
+/*	border: 2px solid green;*/
+
+}
+
+intro-cards h2{
+	margin-top: 20px;
+/*	border: 2px solid green;*/
+
+}
+intro-cards li h2 + p{
+	margin-top: 10px;
+/*		border: 2px solid red;*/
+}
+
+.projects-card {
+	display: flex;
+/*	border: 2px solid red;*/
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+/*	border: 2px solid red;*/
+
+
+}
+
+
+/*}
+.cards-list {
+	display: flex;
+
+}*/
+
+/*.card {
+	display: flex;
+	flex-direction: column;*/
+
+
+/*	border: 2px solid green;*/
+}
+
+/* "break-point" 1 */
+/*@media (min-width: 600px) { 
+		intro-cards {
+	display:flex;
+	flex-directon; column;
+}
+
+intro-cards ul {
+	display: flex;
+	gap: 20px;*/
+}
+	}
+
+	}
+}
