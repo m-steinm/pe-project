@@ -1,0 +1,78 @@
+@import "reset.css";
+@import "setup.css";
+
+
+
+body {
+	background-color: ##d3d3d3;
+	padding: 20px;
+}
+
+h1 { 
+	font-size: 60px;
+	font-family:'Eczar', serif;
+	margin-top: 20px;
+ }
+
+ h2 {
+ 	font-size: 30px;
+ }
+inner-column {
+	display: block;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+/*	border: 2px solid blue;*/
+}
+.page-content {
+/*	border: 1px dashed black;*/
+}
+
+cocktail-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+/*	border: 3px solid black;*/
+	border-radius: 20px;
+	padding: 10px;
+	max-width: 30ch;
+}
+
+.cocktail + .cocktail {
+	margin-top: 30px;
+}
+
+cocktail-card a {
+	text-decoration: underline;
+	color: blue;
+}
+
+.detail p {
+	margin-top: 15px;
+}
+
+/*navigation*/
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+	padding: 10px;
+}
+
+nav a {
+	font-size: 1.3rem;
+	text-decoration: underline;
+}
+
+nav a:hover {
+	color: blue;
+}
+
+/*index*/
+
+.front-page {
+/*	font-family:'Eczar', serif;*/
+}
+
