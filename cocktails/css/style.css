@@ -6,7 +6,32 @@
 body {
 	background-color: ##d3d3d3;
 	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
+
+inner-column {
+	display: block;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+/*	border: 2px solid blue;*/
+}
+
+main {
+	flex:1;
+}
+
+.page-content {
+/*	border: 1px dashed black;*/
+}
+
+.detail p {
+	margin-top: 15px;
+}
+
+/*typography*/
 
 h1 { 
 	font-size: 60px;
@@ -17,16 +42,9 @@ h1 {
  h2 {
  	font-size: 30px;
  }
-inner-column {
-	display: block;
-	max-width: 900px;
-	margin-right: auto;
-	margin-left: auto;
-/*	border: 2px solid blue;*/
-}
-.page-content {
-/*	border: 1px dashed black;*/
-}
+
+
+/*cocktail cards*/
 
 cocktail-card {
 	display: flex;
@@ -48,9 +66,15 @@ cocktail-card a {
 	color: blue;
 }
 
-.detail p {
-	margin-top: 15px;
+cocktail-card h2 + ul {
+	margin-top: 5px;
 }
+
+.garnish {
+	color: #25ac86;
+	 
+}
+
 
 /*navigation*/
 
@@ -76,3 +100,19 @@ nav a:hover {
 /*	font-family:'Eczar', serif;*/
 }
 
+form{
+	padding: 20px;
+
+}
+
+field {
+	display: block;
+}
+
+field :is(label) {
+	display: block;
+}
+
+field field {
+	margin-top: 20px;
+}
