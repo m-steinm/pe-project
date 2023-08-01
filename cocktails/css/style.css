@@ -51,8 +51,9 @@ cocktail-card {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-/*	border: 3px solid black;*/
-	border-radius: 20px;
+/*	border: 1px solid #dcdcdc;*/
+box-shadow: 5px 5px 5px #dcdcdc;
+/*	border-radius: 20px;*/
 	padding: 10px;
 	max-width: 30ch;
 }
@@ -113,6 +114,19 @@ field :is(label) {
 	display: block;
 }
 
-field field {
+field + field {
 	margin-top: 20px;
+}
+
+field + button {
+	margin-top: 20px;
+}
+
+/*footer*/
+header{
+	border-bottom: 2px solid gray;
+}
+
+footer {
+	border-top: 2px solid gray;
 }

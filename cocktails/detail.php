@@ -5,7 +5,7 @@
 			$this_cocktail_id = $_GET["cocktail"];
 	}
 
-	echo $this_cocktail_id;
+	// echo $this_cocktail_id;
 
 	foreach ($cocktailData as $cocktail) {
 		if ( $this_cocktail_id == $cocktail["id"] ) {
