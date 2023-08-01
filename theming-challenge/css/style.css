@@ -1,0 +1,215 @@
+@import "meyer-reset.css";
+@import "setup.css"
+
+ * {
+	padding: 10px
+}
+
+inner-column{
+	display: block;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid gray;
+
+}
+
+body{
+	display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+	padding: 10px;
+}
+
+header{
+	border: 1px solid black;
+	padding: 10px;
+}
+
+main{
+	border: 2px solid black;
+	flex: 1;
+}
+
+masthead{
+	display: flex;
+	flex-direction: row;
+justify-content: space-between;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+masthead nav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+masthead a{
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/*diptych*/
+
+diptych{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+diptych .main-text{
+	display: flex;
+	gap:10px;
+	flex-direction: column;
+	border: 1px solid lime;
+	padding: 10px;
+}
+diptych p{
+	display: block;
+	border: 1px solid black;
+	padding: 10px;
+	max-width: 70ch;
+}
+
+diptych h1{
+	display: block;
+	border: 1px solid black;
+	padding: 10px;
+	max-width: 70ch;
+}
+
+
+diptych picture{
+	border: 1px solid black;
+	padding: 10px;
+}
+diptych img{
+	display: flex;
+	max-width: 400px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+ diptych .words{
+	border: 1px solid yellow;
+	display: flex;
+	flex-direction: column;
+	background-color: orange;
+}
+
+/*call to action*/
+
+action{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border: 1px solid red;
+	padding: 10px;
+}
+
+.action-head{
+	border: 1px solid dodgerblue;
+}
+
+.action-text{
+	border: 1px solid pink;
+}
+
+.action-link{
+	border: 1px solid orange;
+	background-color: ;
+}
+
+/*footer*/
+
+footer{
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.site-footer{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+footer h1{
+	border: 1px solid black;
+}
+
+footer p{
+	border: 1px solid black;
+}
+
+.site-map{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.site-map *{
+	border: 1px solid black;
+}
+
+footer .site-menu{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+
+footer .user-menu{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+
+footer .legal-things{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+
+footer .social-things{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+
+article-grid{
+	display: block;
+	padding: 10px;
+}
+
+article-grid *{
+	border: 2px solid black;
+}
+
+article-grid .article-intro{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px;
+}
+
+
+
+
+
+/* "break-point" 1 */
+@media (min-width: 600px) { /* if the viewport is at min 600px wide... apply these rules */
+	body {
+	}
+
+	}
+}
