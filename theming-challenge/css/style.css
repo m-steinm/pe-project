@@ -33,8 +33,8 @@ main{
 
 masthead{
 	display: flex;
-	flex-direction: row;
-justify-content: space-between;
+	flex-direction: column;
+  justify-content: space-between;
 	border: 1px solid black;
 	padding: 10px;
 }
@@ -56,7 +56,7 @@ masthead a{
 
 diptych{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	gap: 10px;
 	border: 1px solid black;
@@ -150,7 +150,7 @@ footer p{
 .site-map{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	padding: 10px;
 }
 
@@ -186,8 +186,11 @@ footer .social-things{
 
 }
 
+/*article grid*/
+
 article-grid{
-	display: block;
+	display: flex;
+	flex-direction: column;
 	padding: 10px;
 }
 
@@ -202,14 +205,79 @@ article-grid .article-intro{
 	padding: 10px;
 }
 
+article-grid .article-list{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+}
+
+
 
 
 
 
 /* "break-point" 1 */
-@media (min-width: 600px) { /* if the viewport is at min 600px wide... apply these rules */
-	body {
-	}
-
-	}
+@media (min-width: 700px) {
+	
+	masthead{
+	display: flex;
+	flex-direction: row;
+  justify-content: space-between;
+	border: 1px solid black;
+	padding: 10px;
 }
+
+	diptych{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+action{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border: 1px solid red;
+	padding: 10px;
+
+}
+
+article-grid .article-list{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+/*not sure how to space these? they each have to be their own section?*/
+
+.site-map{
+	display: flex;
+	flex-direction: row;
+/*	justify-content: space-between;*/
+}
+.site-things{
+	display: flex;
+	flex-direction: row;
+}
+
+.outside-things{
+	display: flex;
+	flex-direction: row;
+}
+
+}
+
+/*break-point 2*/
+@media (min-width: 1000px) {
+
+article-grid .article-list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+}
+
+}
+
