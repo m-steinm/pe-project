@@ -209,17 +209,20 @@ footer .social-things{
 article-grid{
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
 }
 
 article-grid *{
 	border: 2px solid black;
 }
 
+article-grid h1, p, a{
+	padding: 10px;
+}
+
 article-grid .article-intro{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+/*	gap: 10px;*/
 	padding: 10px;
 }
 
@@ -228,6 +231,13 @@ article-grid .article-list{
 	grid-template-columns: 1fr;
 	gap: 20px;
 	padding: 10px;
+}
+
+article-grid .act{
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	background-color: black;
 }
 
 
