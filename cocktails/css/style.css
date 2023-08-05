@@ -21,6 +21,7 @@ inner-column {
 
 main {
 	flex:1;
+
 }
 
 .page-content {
@@ -47,18 +48,24 @@ h1 {
 /*cocktail cards*/
 
 cocktail-card {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	display: block;
+/*	flex-direction: column;
+	align-items: flex-start;*/
 	justify-content: center;
-/*	border: 1px solid #dcdcdc;*/
-box-shadow: 5px 5px 5px #dcdcdc;
+	border: 3px solid black;
+	box-shadow: 5px 5px 5px #dcdcdc;
 /*	border-radius: 20px;*/
 	padding: 10px;
-	max-width: 30ch;
+	max-width: 45ch;
 }
 
-.cocktail + .cocktail {
+.cocktail-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 25px;
+}
+
+/*.cocktail + .cocktail {
 	margin-top: 30px;
 }
 
@@ -70,9 +77,9 @@ cocktail-card a {
 cocktail-card h2 + ul {
 	margin-top: 5px;
 }
-
-.garnish {
-	color: #25ac86;
+*/
+.garnish-color {
+	color: #af01bb;
 	 
 }
 
@@ -99,6 +106,7 @@ nav a:hover {
 
 .front-page {
 /*	font-family:'Eczar', serif;*/
+
 }
 
 form{
@@ -123,10 +131,11 @@ field + button {
 }
 
 /*footer*/
-header{
+.site-menu{
 	border-bottom: 2px solid gray;
 }
 
-footer {
+.footer {
 	border-top: 2px solid gray;
+	margin-top: 10px;
 }
