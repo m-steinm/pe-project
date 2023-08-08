@@ -1,0 +1,83 @@
+/*TYPOGRAPHY*/
+
+.loud-voice {
+	font-size: 75px;
+	font-family:'Eczar', serif;
+/*	font-style: italic;*/
+	color: var(--color);
+}
+
+
+.attention-voice{
+	font-family: 'Eczar', serif;
+	font-size: 30px;
+/*	font-style: italic;*/
+	color: var(--ink);
+}
+
+.calm-voice {
+	font-size: 20px;
+	font-family: 'Times New Roman', serif;
+}
+
+body {
+	--ink: black;
+	--paper: white;
+	--alternate: #64001f;
+	--highlight: #;
+}
+
+header {
+	font-size: 20px;
+	font-family: 'Times New Roman', serif;
+
+}
+
+p, li{
+	margin-top: 10px;
+	max-width: 73ch;
+	line-height: 1.5rem;
+	font-size: 1rem;
+}
+
+a:hover{
+	color: var(--alternate);
+	transition: color .2s;
+
+	
+}
+
+p a { 
+	display: inline-block;
+	text-decoration: underline var(--highlight);
+	color: inherit; 
+	transition: color .2s;
+}
+
+li a {
+	display: inline-block;
+	text-decoration: underline var(--highlight);
+	color: inherit;
+	transition: color .2s;
+}
+
+
+nav li{
+	display: inline-block;
+	padding: 0px 10px 0px 0px;
+
+}
+
+
+h1 + ul, h3,{
+	margin-top: 25px;
+}
+
+
+b{
+	font-weight: bold;
+}
+
+em{
+	font-style: italic;
+}
