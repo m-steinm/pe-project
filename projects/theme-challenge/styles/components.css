@@ -5,12 +5,17 @@
 .button {
 	display: block;
 
-	font-family: sans-serif;
+	font-family: 'Average Sans', sans-serif;
 	font-size: 1rem;
 	line-height: 1.4;
 
+
 	padding: 0.5em 1em;
+	color: var(--highlight);
 	background-color: var(--color);
 	min-width: 120px;
 	text-align: center;
+	text-transform: uppercase;
+
+
 }

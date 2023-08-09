@@ -46,6 +46,9 @@ section.get-involved .button {
 	color: var(--paper);
 }
 
+
+}
+
 @media (prefers-color-scheme: dark) {
 	section.sign-up {
 		background-color: var(--color);

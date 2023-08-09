@@ -21,3 +21,13 @@ graphic-diptych p {
 		flex-basis: 50%;
 	}
 }
+
+graphic-diptych picture{
+	display: none;
+}
+
+section.welcome{
+	background-image: url('coffee-bag.png');
+	background-image: center;
+	backgrou
+}
