@@ -1,21 +1,22 @@
 html {
 	--black: #111111;
-	--white: #fefaf6;
+	--white: #fef9f6;
 
-	--neutral-stuffs: gray;
+	--neutral-stuffs: #f3eeef;
 
 	--color: #003043;
 	--highlight:#d4dfe7;
 
-	--shadow: rgba(0, 0, 0, 0.8);
+	--shadow: rgba(0, 0, 0, 0.3);
 
 	--corners: 10px; /* or whatevers */
 
 	--paper: var(--white);
-	--ink: var(--#003042);
+	--ink: #003043;
 
 	--standard: 1140px;
 	--tight: 800px;
+
 }
 
 @media (prefers-color-scheme: dark) {

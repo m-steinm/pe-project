@@ -1,18 +1,40 @@
 .article-card {
 	display: block;
-	/*border: 4px solid red;*/
+/*	border: 4px solid red;*/
 
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+
+	background-color: var(--neutral-stuffs);
 }
 
 .article-card text-content {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0 15px;
+
+}
+
+.article-card text-content .title, .teaser{
+	color: var(--color);
+}
+
+.article-card .title{
+	font-family:'Goudy Bookletter 1911', serif;;
+	font-size: 1.25rem;
 }
 
 .article-card a {
-	margin-top: 20px;
+	margin: 15px;
+}
+
+
+.article-card picture {
+	margin: 20px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	max-width: 200px;
 }

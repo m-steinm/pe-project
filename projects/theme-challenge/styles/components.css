@@ -6,16 +6,21 @@
 	display: block;
 
 	font-family: 'Average Sans', sans-serif;
-	font-size: 1rem;
+	font-size: .7rem;
 	line-height: 1.4;
+	letter-spacing: 0.05em;
 
 
-	padding: 0.5em 1em;
-	color: var(--highlight);
+
+	padding: 1em 1em;
+	color: var(--white);
 	background-color: var(--color);
 	min-width: 120px;
 	text-align: center;
 	text-transform: uppercase;
 
+}
 
+.button:hover {
+	color: red;
 }

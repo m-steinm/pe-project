@@ -11,7 +11,7 @@ graphic-diptych p {
 	margin-top: 20px;
 }
 
-@media (min-width:  700px) {
+@media (min-width: 700px) {
 	graphic-diptych {
 		flex-direction: row;
 		align-items: center;
@@ -26,8 +26,19 @@ graphic-diptych picture{
 	display: none;
 }
 
+graphic-diptych text-content{
+	padding: 10vh 0;
+/*	border: 3px solid black;*/
+}
+
+text-content :is(h1,p){
+	color: var(--white);
+/*	text-shadow: 1px 1px 2px var(--shadow);*/
+
+}
 section.welcome{
-	background-image: url('coffee-bag.png');
-	background-image: center;
-	backgrou
+	background-image: url('../../images/coffee-bag.png');
+	background-size: cover;
+	background-position: center;
+/*	min-height: 50vh;*/
 }
