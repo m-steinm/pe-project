@@ -1,9 +1,24 @@
 <inner-column>
 <?php
 	
-	if ( isset($_POST["add"]) ) {
-			echo "cocktail added";
+	$formSubmitted = isset($_POST["add"]); 
+
+	if ($formSubmitted) {
+			if( isset($_POST["name"]) ) {
+				$name = $_POST["name"];
+
+				//create cocktail
+				$newCocktail = [
+					"name" => $name
+				];
+				var_dump($newCocktail);
+
+			}
 	}
+
+
+	//tranform it to json file
+	// save cocktail and return it
 
 ?>
 </inner-column>
@@ -20,7 +35,7 @@
 				<input type="text" name="cocktail-name">
 			</field> 
 			
-			<field>
+<!-- 			<field>
 				<label>Base Spirit</label>
 				<input type="text" name="base" >
 
@@ -48,7 +63,7 @@
 				<label>Garnish</label>
 				<input type="text" name="fourth">
 			</field>
-		
+		 -->
 			<button type="submit" name="add">
 				Submit
 			</button>
