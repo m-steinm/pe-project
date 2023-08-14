@@ -1,0 +1,22 @@
+
+
+*{
+	margin: 0;
+}
+
+.guitar-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+guitar-card {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+	.name {
+		color: red;
+	}
