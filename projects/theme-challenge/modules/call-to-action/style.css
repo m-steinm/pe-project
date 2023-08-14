@@ -10,10 +10,18 @@ call-to-action {
 
 call-to-action .button {
 	margin-top: 10px;
+	color: var(--ink);
+	background-color: var(--neutral-stuffs);
+	border: 1px solid var(--ink);
+	min-width: 200px;
 	}
 
-section .sign-up{
-
+section.sign-up .button{
+	margin-top: 10px;
+	color: var(--ink);
+	background-color: var(--neutral-stuffs);
+	border: 1px solid var(--ink);
+	min-width: 200px;
 
 }
 

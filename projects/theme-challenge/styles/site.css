@@ -42,8 +42,11 @@ section.get-involved {
 }
 
 section.get-involved .button {
-	background-color: var(--ink);
-	color: var(--paper);
+	margin-top: 10px;
+	color: var(--ink);
+	background-color: var(--neutral-stuffs);
+	border: 1px solid var(--ink);
+	min-width: 200px;
 }
 
 
@@ -60,7 +63,7 @@ section.get-involved .button {
 		color: var(--white);
 	}
 
-	section.get-involved {
+	section.get-involved .button {
 		background-color: var(--highlight);
 		color: var(--black);
 	}

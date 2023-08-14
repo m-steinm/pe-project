@@ -2,7 +2,7 @@
 <graphic-diptych>
 
 	<picture>
-		<img src='coffee-bag.png' alt='$todo'>
+		<img src='../../images/coffee-bag.png' alt='$todo'>
 	</picture>
 	
 	<text-content>
