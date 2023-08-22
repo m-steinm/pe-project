@@ -62,36 +62,33 @@ inner-column {
 	display: flex;
 }
 
-intro-cards{
-	margin-top: 0px;
-/*	border: 2px solid green;*/
-
-}
-
-intro-cards h2{
-	margin-top: 20px;
-/*	border: 2px solid green;*/
-
-}
-intro-cards li h2 + p{
-	margin-top: 10px;
-/*		border: 2px solid red;*/
-}
-
-.projects-card {
+projects-card {
 	display: flex;
 	flex-direction: column;
-/*	border: 2px solid red;*/
+/*	border: 10px solid red;*/
 }
 
 div h2{
 	margin-top: 20px;
 /*	border: 2px solid green;*/
+}
 
+/*HEADER*/
 
-
+site-header {
 
 }
+
+/*HOME PAGE*/
+
+intro-cards h2 {
+	margin-top: 25px;
+}
+
+intro-cards li h2+p{
+	margin-top: 20px;
+}
+
 
 
 /*}

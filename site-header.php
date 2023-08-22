@@ -1,8 +1,9 @@
+
 <body>
 	
 <inner-column>
-	<header> 
-	<nav class="calm-voice">
+	<site-header> 
+	<nav>
 		<ul>
 			<li> <a href="index.php">Home</a></li>
 			<li> <a href="projects.php">Projects</a></li>
@@ -10,7 +11,7 @@
 		</ul>
 	</nav>	
 
-	</header>
+	</site-header>
 </inner-column>
 
 	<main>
