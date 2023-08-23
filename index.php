@@ -21,9 +21,6 @@
 		</intro-cards>	
 		</inner-column>	
 
-
-</main>
-		<footer></footer>
+<?php include('modules/site-footer.php'); ?>
 
 
-</html>

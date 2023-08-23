@@ -2,9 +2,19 @@
 @import "typography.css";
 @import "form.css";
 
-*{
-	box-sizing: border-box;
+/*DEVELOPER STYLES*/
+
+body * {
+	border: 1px solid hsl(200, 100%, 80%);
+	padding: 2px;
 }
+
+body inner-column {
+	border: 1px solid hsl(360, 100%, 80%);
+	padding: 2px;
+}
+
+/*STYLES*/
 
 p {
 	font-size: 1rem;
@@ -42,10 +52,14 @@ img {
 
 body{
 	padding: 20px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 main {
 	margin-top: 30px;
+	flex-grow: 1;
 }
 
 
@@ -76,6 +90,8 @@ div h2{
 /*HEADER*/
 
 site-header {
+/*	border: 2px solid red;*/
+
 
 }
 

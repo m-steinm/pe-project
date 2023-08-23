@@ -1,8 +1,10 @@
 
 <body>
 	
-<inner-column>
+
 	<site-header> 
+	<inner-column>
+	
 	<nav>
 		<ul>
 			<li> <a href="index.php">Home</a></li>
@@ -10,8 +12,9 @@
 			<li> <a href="contact.php">Contact</a></li>
 		</ul>
 	</nav>	
-
+	
+	</inner-column>
 	</site-header>
-</inner-column>
+
 
 	<main>

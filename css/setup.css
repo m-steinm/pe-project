@@ -1,7 +1,13 @@
 
+body * {
+	border: 1px solid black;
+	padding: 2px;
+}
+
 *{
 	box-sizing: border-box;
 }
+
 
 p {
 	font-size: 1rem;
