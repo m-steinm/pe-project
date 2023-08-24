@@ -8,10 +8,10 @@
 	
 	<nav>
 		<ul>
-			<li> <a href="index.php">Home</a></li>
-			<li> <a href="projects.php">Projects</a></li>
-			<li> <a href="/pages/contact.php">Contact</a></li>
-			<li> <a href="/pages/goals/template.php">Goals</a></li>
+			<li> <a href="?page=home">Home</a></li>
+			<li> <a href="?page=projects">Projects</a></li>
+			<li> <a href="?page=contact">Contact</a></li>
+			<li> <a href="?page=goals">Goals</a></li>
 		</ul>
 	</nav>	
 	
@@ -20,4 +20,11 @@
 </inner-column>
 </section>
 
-	<main>
+<main>
+
+<?php
+
+	if($page == "projects"){
+		include("projects.php");
+	}
+?>

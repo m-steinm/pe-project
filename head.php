@@ -1,6 +1,16 @@
-<?php include('config.php'); ?>
 
 <!doctype html>
+
+<?php
+
+	$page = null;
+	if ( isset($_GET["page"]) ) {
+		$page = $_GET["page"];
+	}else{
+		$page = "home";
+	}
+
+?>
 
 <html lang="en">
 	
@@ -11,7 +21,7 @@
 		<title>Max Steinmetz</title>
 		<meta name="description" content="[[description goes here]]">
 		<meta property="og:image" content="[[meta image source">
-		<base href="<?BASE_URL?>">
+
 
 		<link rel="stylesheet" href="css/style.css">
 
