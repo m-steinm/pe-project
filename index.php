@@ -8,7 +8,7 @@
 	}
 
 	if($page == "projects"){
-		include("projects.php");
+		include("pages/projects.php");
 	}
 
 	if($page == "contact"){
