@@ -17,7 +17,7 @@ $goals = [
  	],
 
 		[
-		"id" => 0,
+		"id" => 1,
 		
 		"heading" => "End of the Month",
 		"bullet" => [
@@ -30,7 +30,7 @@ $goals = [
  	],
 
 	[
-		"id" => 0,
+		"id" => 2,
 		
 		"heading" => "End of the Week",
 		"bullet" => [

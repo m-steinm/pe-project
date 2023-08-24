@@ -25,6 +25,7 @@
 			<li> <a href="?page=projects">Projects</a></li>
 			<li> <a href="?page=contact">Contact</a></li>
 			<li> <a href="?page=goals">Goals</a></li>
+			<li> <a href="?page=resume">Resume</a></li>
 		</ul>
 	</nav>	
 	
