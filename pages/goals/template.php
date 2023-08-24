@@ -1,6 +1,4 @@
-<?php include ('../../functions.php'); ?>
-<?php include( getFile('head.php') );?> 
-<?php include( getFile("site-header.php") );?> 
+
 <?php include('goals-data.php'); ?>
 
 

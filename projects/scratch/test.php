@@ -1,4 +1,4 @@
 <?php
 
-$name = $_GET["food"];
+$name = $_GET["food "];
 echo $name;

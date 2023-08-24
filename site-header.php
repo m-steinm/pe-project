@@ -1,7 +1,20 @@
 
+<!doctype html>
+
+<?php
+
+	$page = "home";
+	if ( isset($_GET["page"]) ) {
+		$page = $_GET["page"];
+	}
+
+?>
+
+<html lang="en">
+	<?php include("head.php"); ?>
 <body>
 	
-<section class="site-header">
+<header class="site-header">
 <inner-column>
 	
 	<site-header> 
@@ -18,13 +31,7 @@
 	</site-header>
 	
 </inner-column>
-</section>
+</header>
 
 <main>
 
-<?php
-
-	if($page == "projects"){
-		include("projects.php");
-	}
-?>

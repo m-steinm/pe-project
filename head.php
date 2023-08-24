@@ -1,19 +1,4 @@
 
-<!doctype html>
-
-<?php
-
-	$page = null;
-	if ( isset($_GET["page"]) ) {
-		$page = $_GET["page"];
-	}else{
-		$page = "home";
-	}
-
-?>
-
-<html lang="en">
-	
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">

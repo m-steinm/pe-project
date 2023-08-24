@@ -1,5 +1,4 @@
-<?php include("head.php");?>
-<?php include("site-header.php");?> 
+
 
 <!--   <inner-column>
   		<h1 class="loud-voice">Projects</h1>
@@ -25,5 +24,3 @@
 	
 	</inner-column>
 	</section>
-
-<?php include('modules/site-footer.php'); ?>
