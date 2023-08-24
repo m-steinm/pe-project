@@ -1,5 +1,6 @@
-<?php include("head.php");?>
-<?php include("site-header.php");?> 
+<?php include ('../functions.php'); ?>
+<?php include( getFile('head.php') );?> 
+<?php include( getFile("site-header.php") );?>
 
   <inner-column>
   		<h1 class="loud-voice">Forms</h1>

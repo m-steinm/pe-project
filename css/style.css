@@ -14,38 +14,6 @@ body inner-column {
 	padding: 2px;
 }
 
-/*STYLES*/
-
-p {
-	font-size: 1rem;
-	max-width: 70ch;
-	line-height: 1.4;
-}
-
-
-a {
-	display: block;
-	text-decoration: none;
-	color: inherit;
-}
-
-p a {
-	display: inline;
-	text-decoration: none;
-	font-weight: 700;
-	color: var(--alternate);
-}
-
-picture {
-	display: block;
-}
-
-
-img { 
-  display: block;
-  width: 100%;
-  height: auto; 
-}
 
 
 /*SITE STRUCTURE*/
@@ -63,24 +31,14 @@ main {
 }
 
 
-footer{
-
-
-}
-
 inner-column {
 	max-width: 900px;
 	margin-right: auto;
 	margin-left: auto;
-/*	border: 2px solid green;*/
 	display: flex;
+	flex-directon: row;
 }
 
-projects-card {
-	display: flex;
-	flex-direction: column;
-/*	border: 10px solid red;*/
-}
 
 div h2{
 	margin-top: 20px;
@@ -90,10 +48,56 @@ div h2{
 /*HEADER*/
 
 site-header {
+	display: block;
+	position: sticky;
+	top: 0;
+	background-color: var(--paper);
 /*	border: 2px solid red;*/
+
+}
+
+
+/*PAGES*/
+
+contact-page {
+	display: block;
+
+}
+.contact {
+
+}
+
+projects-card {
+		display: block;
+
+}
+
+.projects {
+
+}
+
+goals-card {
+
+}
+
+.goals-list{
 
 
 }
+
+.goals {
+	
+}
+
+
+/*FOOTER*/
+
+footer inner-column{
+	justify-content: center;
+
+}
+
+
 
 /*HOME PAGE*/
 

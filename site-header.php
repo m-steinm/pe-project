@@ -1,20 +1,23 @@
 
 <body>
 	
-
+<section class="site-header">
+<inner-column>
+	
 	<site-header> 
-	<inner-column>
 	
 	<nav>
 		<ul>
 			<li> <a href="index.php">Home</a></li>
 			<li> <a href="projects.php">Projects</a></li>
-			<li> <a href="contact.php">Contact</a></li>
+			<li> <a href="/pages/contact.php">Contact</a></li>
+			<li> <a href="/pages/goals/template.php">Goals</a></li>
 		</ul>
 	</nav>	
 	
-	</inner-column>
 	</site-header>
-
+	
+</inner-column>
+</section>
 
 	<main>
