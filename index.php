@@ -19,8 +19,12 @@
 		include("pages/goals/template.php");
 	}
 
-		if($page == "resume"){
+	if($page == "resume"){
 		include("pages/resume/template.php");
+	}
+
+	if($page == "layout-garden"){
+		include("layout-garden.php");
 	}
 ?>
 
