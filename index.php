@@ -24,7 +24,7 @@
 	}
 
 	if($page == "layout-garden"){
-		include("layout-garden.php");
+		include("pages/layout-garden/template.php");
 	}
 ?>
 

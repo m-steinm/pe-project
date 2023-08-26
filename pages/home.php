@@ -1,6 +1,6 @@
 <div>
 <inner-column>
-	h1 class="loud-voice">Max Steinmetz</h1>
+	<h1 class="loud-voice">Max Steinmetz</h1>
 </inner-column>
 </div>
 
