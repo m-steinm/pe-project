@@ -3,7 +3,7 @@
 	<inner-column>
 	<page-header>
 		<h1 class="loud-voice">Layout Garden</h1>
-		<p> A description goes here</p>
+		<p> This a collection of responsive modules that are </p>
 	</page-header>
 	</inner-column>
 </section>

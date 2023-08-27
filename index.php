@@ -8,11 +8,11 @@
 	}
 
 	if($page == "projects"){
-		include("pages/projects.php");
+		include("pages/projects/template.php");
 	}
 
 	if($page == "contact"){
-		include("pages/contact.php");
+		include("pages/contact/template.php");
 	}
 
 	if($page == "goals"){

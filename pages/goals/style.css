@@ -1,0 +1,18 @@
+goals-card {
+	display: block;
+	border: 3px solid pink;
+
+}
+
+.goals-list{
+		border: 3px solid dodgerblue;
+
+
+}
+
+.goals inner-column{
+	flex-direction: column;
+			border: 3px solid green;
+
+	
+}
