@@ -20,7 +20,7 @@ body inner-column {
 /*SITE STRUCTURE*/
 
 body{
-	padding: 20px;
+/*	padding: 20px;*/
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -60,22 +60,21 @@ site-header {
 
 /*PAGES*/
 
-contact-page {
-	display: block;
-
-}
-.contact {
-
-}
 
 
 
 /*FOOTER*/
 
-footer inner-column{
+footer{
+	background-color: lightgray;
+	padding: 80px;
+	color: white;
+}
+
+/*footer inner-column{
 	justify-content: center;
 
-}
+}*/
 
 
 
