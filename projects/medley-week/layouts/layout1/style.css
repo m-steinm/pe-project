@@ -1,0 +1,117 @@
+
+content{
+	display: flex;
+	flex-direction: column
+}
+
+heading-card{
+	display: block;
+	margin-top: 10px;
+	max-width: 330px;
+}
+
+
+list-card{
+	display: block;
+	border-bottom: 2px solid grey;
+	margin-top: 10px;
+	max-width: 330px;
+}
+
+picture-card{
+	display: block;
+	margin-top: 10px;
+}
+
+picture{
+	display: block;
+	max-width: 330px;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+ul{
+	list-style-type: none;
+}
+
+
+h2{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+h3{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+h2 + p{
+	margin-top: 15px;
+}
+
+@media (min-width: 400px) { /* if the viewport is at min 600px wide... apply these rules */
+
+heading-card{
+	display: block;
+	margin-top: 10px;
+	max-width: 600px;
+}
+
+.list-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	}
+
+	list-card{
+	display: block;
+	border-bottom: 2px solid grey;
+	margin-top: 10px;
+	max-width: 330px;
+}
+
+.picture-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	
+}
+	
+picture-card{
+	display: block;
+	margin-top: 10px;
+}
+
+picture{
+	display: block;
+	max-width: 330px;
+}
+	
+h2{
+	font-size: 50px;
+	font-family: sans-serif;
+}
+h3{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+	}
+
+@media (min-width: 900px) { /* if the viewport is at min 600px wide... apply these rules */
+	content{
+		flex-direction: row;
+		gap: 20px;}
+picture {
+	display: block;
+	max-width: 400px;
+}
+
+
+img { 
+  display: block;
+  width: 100%;
+  height: auto; 
+}
+	}

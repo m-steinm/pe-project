@@ -1,0 +1,23 @@
+@import "meyer-reset.css";
+@import "setup.css";
+@import "typography.css";
+@import "settings.css";
+@import "structure.css";
+@import "../layouts/layout1/style.css";
+
+
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+
+}
+
+
+/* "break-point" 1 */
+@media (min-width: 600px) { /* if the viewport is at min 600px wide... apply these rules */
+	body {
+		background-color: var(--highlight);
+	}
+
+	}
+
