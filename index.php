@@ -28,7 +28,7 @@
 	}
 
 	if($page == "forms"){
-		include("pages/forms/rectangular-room.php");
+		include("pages/forms/currency.php");
 	}
 ?>
 

@@ -2,10 +2,11 @@ body{
 	padding: 20px;
 }
 
-a {
+form a {
 	display: block;
 	text-decoration: none;
 	color: inherit;
+	border: 1px solid red;
 }
 
 
