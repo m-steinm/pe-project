@@ -1,3 +1,35 @@
 body{
 	padding: 20px;
 }
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+form {
+	display: block;
+	max-width: 800px;
+	border: 1px solid black;
+
+}
+
+.field { 
+	display: flex;
+	flex-direction:column;
+}
+
+div + div, button {
+	margin-top: 20px;
+}
+
+output {
+	display: block;
+	max-width: 800px;
+	background-color: lightgray;
+	border: 1px solid black;
+	margin-top: 20px;
+}

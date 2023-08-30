@@ -1,4 +1,4 @@
-
+<!-- 
 <style>
 	input {
 		display: block;
@@ -7,7 +7,7 @@
 
 	}
 
-</style>
+</style> -->
 
 
 <?php

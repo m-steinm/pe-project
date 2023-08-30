@@ -26,6 +26,10 @@
 	if($page == "layout-garden"){
 		include("pages/layout-garden/template.php");
 	}
+
+	if($page == "forms"){
+		include("pages/forms/rectangular-room.php");
+	}
 ?>
 
 <?php include('modules/site-footer.php'); ?>
