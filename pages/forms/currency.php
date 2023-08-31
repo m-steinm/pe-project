@@ -6,9 +6,14 @@
 	$euro = 0;
 	//set exchange rate to zero
 	$rate = 0;
+
 if ( isset($_POST["submitted"]) ) {
 
-	if( isset("euros"))
+	if( isset($_POST["euros"]) ) {
+		if ( ($_POST["euros"] >= 0) ) {
+			$euros = $_POST["euros"];
+		}
+	}
 };
 
 	//multiply euros by exchange rate

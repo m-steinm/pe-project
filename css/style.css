@@ -1,7 +1,7 @@
 @import "meyer-reset.css";
 @import "typography.css";
-@import "form.css";
-@import "pages.css";
+@import "forms.css";
+
 
 /*DEVELOPER STYLES*/
 
@@ -125,6 +125,7 @@ article-grid .act{
 	color: white;
 	background-color: black;
 }
+
 
 /*}
 .cards-list {

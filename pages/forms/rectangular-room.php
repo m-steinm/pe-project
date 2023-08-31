@@ -1,4 +1,5 @@
-
+<?php include("../../head.php");?> 
+<?php include("../../site-header.php");?> 
 
 
 <?php 
@@ -79,4 +80,5 @@ echo $message;
 </output>
 </inner-column>
 
+<?php include('../../modules/site-footer.php'); ?>
 

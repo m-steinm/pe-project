@@ -28,7 +28,7 @@
 	}
 
 	if($page == "forms"){
-		include("pages/forms/currency.php");
+		include("pages/forms/template.php");
 	}
 ?>
 
