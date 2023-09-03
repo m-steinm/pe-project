@@ -28,7 +28,11 @@
 	}
 
 	if($page == "forms"){
-		include("pages/forms/template.php");
+		include("pages/projects/forms/index.php");
+	}
+
+	if($page == "form"){
+		include("pages/projects/forms/detail.php");
 	}
 ?>
 

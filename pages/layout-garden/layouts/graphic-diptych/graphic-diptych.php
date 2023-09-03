@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 	graphic-diptych {
 	display: block;
 	display: grid;
@@ -20,7 +20,7 @@
 @media(min-width: 600px){
 	grid-template-columns: 1fr 1fr;
 }
-</style>
+</style> -->
 
 <graphic-diptych>
 	

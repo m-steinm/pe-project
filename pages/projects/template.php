@@ -18,7 +18,7 @@
 			
 			<h2 class="attention-voice">Excercises for Programmers</h2>
 
-			<p class="calm-voice">A selection of <a href="../../forms/rectangular-room.php">Forms</a> that I've created by following prompts from the book "Exercises for Programmers"</p>
+			<p class="calm-voice">A selection of <a href="?page=forms">Forms</a> that I've created by following prompts from the book "Exercises for Programmers"</p>
 		
 		</projects-card>
 	
