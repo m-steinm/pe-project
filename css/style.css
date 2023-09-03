@@ -1,7 +1,8 @@
 @import "meyer-reset.css";
+@import "setup.css";
 @import "typography.css";
 @import "forms.css";
-@import "pages.css";
+
 
 
 /*DEVELOPER STYLES*/
@@ -28,13 +29,13 @@ body{
 }
 
 main {
-	margin-top: 30px;
+	margin-top: 10px;
 	flex-grow: 1;
 }
 
 
 inner-column {
-	max-width: 900px;
+	max-width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 	display: flex;
@@ -47,37 +48,59 @@ div h2{
 /*	border: 2px solid green;*/
 }
 
+
+/*HOME*/
+
+.home {
+	allign-items: center;
+}
 /*HEADER*/
+
+site-header nav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+site-header nav ul li {
+	padding: 0 20px 0 0;
+}
 
 site-header {
 	display: block;
 	position: sticky;
 	top: 0;
 	background-color: var(--paper);
+	margin-top: 20px;
 /*	border: 2px solid red;*/
-
 }
 
+.forms-header {
+	display: block;
+/*	position: sticky;
+	top: 0;*/
+	background-color: var(--neutral);
+/*	margin-top: 20px;*/
+/*	border: 2px solid red;*/
+}
 
-/*PAGES*/
+forms-header nav ul{
+	display: flex;
+	flex-direction: row;
+}
 
+forms-header nav ul li {
+	padding: 20px 20px 20px 0px;
+}
 
 
 
 /*FOOTER*/
 
 footer{
-	background-color: lightgray;
-	padding: 80px;
-	color: white;
+	background-color: var(--neutral);
+	padding: 100px;
+	color: var(--ink);
 }
-
-/*footer inner-column{
-	justify-content: center;
-
-}*/
-
-
 
 /*HOME PAGE*/
 
@@ -89,71 +112,14 @@ intro-cards li h2+p{
 	margin-top: 20px;
 }
 
-/*LAYOUT GARDEN*/
+/*FORMS*/
 
-/*	ARTICLE GRID*/	
-
-article-grid{
+/*forms-card {
 	display: flex;
-	flex-direction: column;
-}
-
-article-grid *{
-	border: 2px solid black;
-}
-
-article-grid h1, p, a{
-	padding: 10px;
-}
-
-article-grid .article-intro{
-	display: flex;
-	flex-direction: column;
-/*	gap: 10px;*/
-	padding: 10px;
-}
-
-article-grid .article-list{
-	display: grid;
-	grid-template-columns: 1fr;
 	gap: 20px;
-	padding: 10px;
-}
-
-article-grid .act{
-	display: inline-block;
-	padding: 5px;
-	color: white;
-	background-color: black;
-}
-
-
-/*}
-.cards-list {
-	display: flex;
-
+	color: green;
 }*/
 
-/*.card {
-	display: flex;
-	flex-direction: column;*/
 
 
-/*	border: 2px solid green;*/
-}
 
-/* "break-point" 1 */
-/*@media (min-width: 600px) { 
-		intro-cards {
-	display:flex;
-	flex-directon; column;
-}
-
-intro-cards ul {
-	display: flex;
-	gap: 20px;*/
-}
-	}
-
-	}
-}

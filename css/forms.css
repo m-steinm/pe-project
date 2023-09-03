@@ -1,36 +1,45 @@
-body{
+
+
+form {
+	display: block;
+	max-width: 800px;
 	padding: 20px;
+	border: 1px solid black;
+	margin-top: 20px;
 }
 
 form a {
 	display: block;
 	text-decoration: none;
 	color: inherit;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 }
 
-
-
-form {
-	display: block;
-	max-width: 800px;
-	border: 1px solid black;
-
+form h1 + h2 {
+	margin-top: 8px;
 }
 
-.field { 
+form .field { 
 	display: flex;
 	flex-direction:column;
 }
 
-div + div, button {
+form .field input {
+	max-width: 100px;
+	margin-top: 5px;
+}
+
+
+
+form h2 + .field, div + div, button {
 	margin-top: 20px;
 }
 
-output {
+form output {
 	display: block;
 	max-width: 800px;
 	background-color: lightgray;
 	border: 1px solid black;
 	margin-top: 20px;
+	padding: 10px;
 }

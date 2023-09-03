@@ -6,6 +6,8 @@
 	$retirementAge = 0;
 	$year = date('Y');
 
+
+
 	if (isset($_POST["submitted"]) ) {
 
 		if ( isset ($_POST["currentAge"]) ) {
@@ -16,20 +18,13 @@
 		if ( isset ($_POST["retirementAge"]) ) {
 			$retirementAge = $_POST["retirementAge"];	
 		}
-			if ($retirementAge <= $currentAge){
-				echo $retireAlready;
-			} else {
-				echo $message;
-		}
+			
 	}
-
-
-
 
 	$total = floatval($retirementAge) - floatval($currentAge);
 		
 	$when = floatval($year) + floatval($total);
-
+	
 	$message = "
 		<p> What is your current age? $currentAge </p>
 		<p> At what age would you like to retire? $retirementAge </p>
@@ -38,17 +33,21 @@
 
 	$retireAlready = "<p>Hooray, you're ready to retire!</p>";
 
+
+
 // if (isset($_POST["submitted"])) {
 
 ?>
-
+<section>
 <inner-column>
 
 <form method="POST">
-	<a href="?"><h1>Retirement Caculator</h1></a>
+	<h1 class="attention-voice"><a href="?page=form&id=retirement-calculator">Retirement Caculator</a></h1>
+
+	<h2 class="calm-voice"><em>How many more years until you're ready to retire?</em></h2>
 
 	<div class="field">
-		<label>Current Age?</label>
+		<label>What is your current Age?</label>
 		<input type="number" 
 			name="currentAge" 
 			value="<?php echo $currentAge;?>" 
@@ -58,7 +57,7 @@
 	</div>
 
 	<div class="field">
-		<label>Desired Retirement Age?</label>
+		<label>What is your desired Retirement Age?</label>
 		<input type="number" 
 			name="retirementAge" 
 			value="<?=$retirementAge?>" 
@@ -68,11 +67,25 @@
 
 	<button type="submit" name="submitted">Submit</button>
 
-	<?php echo $message ?>
-	
+<output>
+
+<?php
+	if ( isset($_POST["submitted"] ) ){
+		if ($retirementAge <= $currentAge){
+			echo $retireAlready;
+			} else {
+			echo $message;
+		}
+}
+
+?>
+
+</output>
+
 </form>
 
 </inner-column>
+</section>
 
 
 

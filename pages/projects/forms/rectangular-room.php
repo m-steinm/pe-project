@@ -1,6 +1,3 @@
-<?php include("../../head.php");?> 
-<?php include("../../site-header.php");?> 
-
 
 <?php 
 
@@ -36,7 +33,7 @@
 
 	<form method='POST'>
 	<a href=""><h1 class="attention-voice">Convert the Area of a Rectangular Room</h1></a>
-	<h2 class="calm-voice">From feet to meters</h2>
+	<h2 class="calm-voice"><em>From feet to meters</em></h2>
 
 	<div class="field">
 		<!-- //prompt for length in feet -->
@@ -64,21 +61,12 @@
 	<button type="submit" name="submitted">
 		Submit
 	</button>
-	</form>
 
-</inner-column>
-</section>
-
-
-<inner-column>
-<output>
+	<output>
 <?php 
 if (isset($_POST["submitted"]) ) {
 echo $message; 
 }
 ?>
-</output>
-</inner-column>
-
-<?php include('../../modules/site-footer.php'); ?>
+	</output>
 

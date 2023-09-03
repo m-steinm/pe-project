@@ -34,7 +34,7 @@ if ( isset($_POST["submitted"]) ) {
 		<input 
 			type="number"
 			name="euros"
-			value=<?$euros?>
+			value="<?$euros?>"
 			min=0
 			required
 			>
@@ -46,10 +46,9 @@ if ( isset($_POST["submitted"]) ) {
 		<input 
 			type="number"
 			name="rate"
-			value=<?$rate?>
+			value="<?$rate?>"
 			min=0
-			required
-			>
+			required>
 	</div>
 
 	<!-- calculate the amount in dollars -->

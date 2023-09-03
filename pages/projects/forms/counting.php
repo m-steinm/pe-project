@@ -1,14 +1,3 @@
-<!-- 
-<style>
-	input {
-		display: block;
-		min-width: 400px;
-		min-height: 200px;
-
-	}
-
-</style> -->
-
 
 <?php
 
@@ -25,13 +14,18 @@
 	}
 
 	$stringCount = strlen($string);
+	
 	$message = "<p> You entered "  . '"' . $string . '"' . " which contains " . $stringCount . " characters.</p>";
 
 
 ?>
+<section>
+<inner-column>
+	
 
 <form method="POST">
-	<a href="?"><h1>Counting Characters</h1></a>
+	<h1 class="attention-voice"><a href="?">Counting Characters</a></h1>
+	<h2><em>How many characters in your string?</em></h2>
 	
 	<div class="field">
 		<label>Enter a sentence (or any other characters) that you'd like to count</label>
@@ -44,14 +38,21 @@
 	</div>
 
 	<button type="submit" name="submitted">Submit</button>
+<output>
+<?php 
+	if (isset($_POST["submitted"]) ) {
+	echo $message; 
+	}
+?>
+</output>
+
 
 </form>
 
-<?php 
-if (isset($_POST["submitted"]) ) {
-echo $message; 
-}
-?>
+
+
+</inner-column>
+</section>
 
 
 
