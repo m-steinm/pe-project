@@ -5,16 +5,19 @@ site-header{
 	justify-content:space-between;
 }
 
-site-header nav ul{
+.site-menu ul{
 	display: flex;
 	flex-directon: row;
 	gap: 30px;
-
 }
+
+.login ul{
+	display: flex;
+	flex-directon: row;
+	gap: 30px;
+}
+
 
 .logo {
-	max-width: 134px;
-}
-.login {
 	max-width: 134px;
 }

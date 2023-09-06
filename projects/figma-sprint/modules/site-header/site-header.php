@@ -23,20 +23,22 @@
 		<rect width='10' height='3' />
 		</svg>
 		</a>
-		<nav>
+		<nav class="site-menu">
 			<ul>
 				<li> <a href="?page=home">Home</a></li>
 				<li> <a href="?page=updates">Updates</a></li>
 				<li> <a href="?page=services">Services</a></li>
 				<li> <a href="?page=features">Features</a></li>
 				<li> <a href="?page=about">About Us</a></li>
-		</nav>	
+		</nav>
+		<nav class="login">
+			<ul>
+				<li>en</li>
+				<li>login</li>
+			</ul>
+		</nav>
 
-			<a href="#" class='link login'>
-		<svg viewBox='0 0 10 3'>
-		<rect width='10' height='3' />
-		</svg>
-		</a>
+
 		
 	</site-header>
 	
