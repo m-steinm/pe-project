@@ -1,0 +1,17 @@
+
+center-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+center-content .heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+center-content picture {
+	max-width: 500px;
+}

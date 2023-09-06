@@ -30,6 +30,7 @@
 				<li> <a href="?page=services">Services</a></li>
 				<li> <a href="?page=features">Features</a></li>
 				<li> <a href="?page=about">About Us</a></li>
+			</ul>
 		</nav>
 		<nav class="login">
 			<ul>
