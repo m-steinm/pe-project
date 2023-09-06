@@ -15,3 +15,10 @@
 </inner-column>
 </section>
 
+<section>
+<inner-column>
+	
+<?php include('modules/feature/feature.php'); ?>
+
+</inner-column>
+</section>
