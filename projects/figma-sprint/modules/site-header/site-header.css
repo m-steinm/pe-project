@@ -1,0 +1,20 @@
+
+site-header{
+	display: flex;
+	flex-directon: row;
+	justify-content:space-between;
+}
+
+site-header nav ul{
+	display: flex;
+	flex-directon: row;
+	gap: 30px;
+
+}
+
+.logo {
+	max-width: 134px;
+}
+.login {
+	max-width: 134px;
+}
