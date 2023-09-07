@@ -1,3 +1,25 @@
-clients {
+clients div{
+	display: flex;
+	flex-directon: column;
+	border: 2px solid red;
+}
+
+/*clients .header{
 	display: block;
+	flex-directon: column;
+	border: 2px solid green;
+}*/
+
+clients .client-card ol{
+	display: flex;
+	flex-directon: row;
+	border: 2px solid blue;
+
+}
+
+clients .header,.client-card ol li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 }

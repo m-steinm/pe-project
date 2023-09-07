@@ -22,3 +22,19 @@
 
 </inner-column>
 </section>
+
+<section>
+<inner-column>
+	
+<?php include('modules/clients/clients.php'); ?>
+
+</inner-column>
+</section>
+
+<section>
+<inner-column>
+	
+<?php include('modules/call-to-action/call-to-action.php'); ?>
+
+</inner-column>
+</section>

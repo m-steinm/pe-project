@@ -1,0 +1,8 @@
+call-to-action {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f8f9fe;
+	padding: 40px;
+
+}
