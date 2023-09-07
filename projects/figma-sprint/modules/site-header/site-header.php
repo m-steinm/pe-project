@@ -1,14 +1,7 @@
 
 <!doctype html>
 
-<?php
 
-	$page = "home";
-	if ( isset($_GET["page"]) ) {
-		$page = $_GET["page"];
-	}
-
-?>
 
 <html lang="en">
 	<?php include("head.php"); ?>
