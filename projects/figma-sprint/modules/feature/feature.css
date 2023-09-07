@@ -1,3 +1,10 @@
+
+feature {
+	display: flex;
+}
+
 feature picture {
 	max-width: 300px;
 }
+
+

@@ -1,3 +1,5 @@
+<?php include('feature-data.php'); ?>
+
 <feature>
 	<div class="heading">
 		<h1 class="loud-voice">Lorem ipsum dolor sit fice bers.</h1>
@@ -11,6 +13,16 @@
 
 	<div class="list">
 		<ol>
+			<?php foreach ($featureItem as $item) { ?>
+
+				<li>
+					
+					<h2><?=$item['heading']?></h2>
+					<p><?=$item['text']?></p>
+
+				</li>
+
+			<?php } ?>
 
 		</ol>
 
