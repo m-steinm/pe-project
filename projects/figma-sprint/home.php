@@ -38,3 +38,11 @@
 
 </inner-column>
 </section>
+
+<section>
+<inner-column>
+	
+<?php include('modules/faq/faq.php'); ?>
+
+</inner-column>
+</section>
