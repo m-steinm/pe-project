@@ -5,7 +5,7 @@
 
 <html lang="en">
 	<?php include("head.php"); ?>
-<body>
+<body class="<?=$page?>" >
 	
 <header class="site-header">
 <inner-column>
