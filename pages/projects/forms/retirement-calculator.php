@@ -25,13 +25,15 @@
 		
 	$when = floatval($year) + floatval($total);
 	
-	$message = "
+	if (isset($_POST["submitted"]) ) {
+		$message = "
 		<p> What is your current age? $currentAge </p>
 		<p> At what age would you like to retire? $retirementAge </p>
 		<p> You have $total years left until you can retire.</p>
 		<p> It's $year so you can retire in $when </p>";
 
 	$retireAlready = "<p>Hooray, you're ready to retire!</p>";
+}
 
 
 
@@ -71,11 +73,13 @@
 
 <?php
 	if ( isset($_POST["submitted"] ) ){
+
 		if ($retirementAge <= $currentAge){
 			echo $retireAlready;
 			} else {
 			echo $message;
 		}
+
 }
 
 ?>
