@@ -1,0 +1,27 @@
+	"name": "Home",
+	"id": "home",
+	"theme": "wavy",
+	"sections": [
+
+		{
+			"id": "welcome",
+			"module": "hero",
+			"heading": "Hero module heading",
+			"intro": "Intro text here...",
+			"theme": "wavy",
+			"actions": [
+				{
+					"type": "link",
+					"destination": "#",
+					"text": "Get started",
+					"style": "primary"
+				}
+			]
+		},
+
+		{
+			"id": "video",
+			"module": "video"
+		}
+
+	]

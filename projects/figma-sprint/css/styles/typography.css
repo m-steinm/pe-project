@@ -6,7 +6,7 @@ body {
 }
 
 .loud-voice {
-	font-family: sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: clamp(36px, 5vw, 60px);
 }
 @media (min-width: 600px) {
@@ -16,14 +16,14 @@ body {
 }
 
 .attention-voice {
-	font-family: sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 30px;
 }
 
 .calm-voice,
 p,
 li {
-	font-family: sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 1rem;
 	line-height: 1.4;
 }

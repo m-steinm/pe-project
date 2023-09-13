@@ -1,0 +1,75 @@
+{
+	"name": "Home",
+	"id": "home",
+	"theme": "default",
+	"sections": [
+		{
+			"id": "welcome",
+			"module": "hero",
+			"heading": "Hero module heading",
+			"intro": "Intro text here...",
+			"theme": "default",
+			"actions": [
+				{
+					"type": "link",
+					"destination": "#",
+					"text": "Get started",
+					"style": "primary"
+				},
+				{
+					"type": "link",
+					"destination": "#",
+					"text": "Get free trial",
+					"style": "secondary"
+				}
+			]
+		},
+		{
+			"id": "welcome",
+			"module": "hero",
+			"heading": "Hero module heading",
+			"intro": "Intro text here...",
+			"theme": "wavy",
+			"actions": [
+				{
+					"type": "link",
+					"destination": "#",
+					"text": "Get started",
+					"style": "primary"
+				}
+			]
+		},
+		{
+			"id": "welcome",
+			"module": "hero",
+			"heading": "Hero module heading",
+			"intro": "Intro text here...",
+			"theme": "dark",
+			"actions": [
+				{
+					"type": "signup",
+					"buttonText": "Signup"
+				}
+			]
+		},
+		{
+			"id": "video",
+			"module": "video"
+		},
+		{
+			"id": "features"
+		},
+		{
+			"id": "testimonials"
+		},
+		{
+			"id": "call-to-action"
+		},
+		{
+			"id": "testimonials"
+		},
+		{
+			"id": "faqs"
+		}
+	]
+}
