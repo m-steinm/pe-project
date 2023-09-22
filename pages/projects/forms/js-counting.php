@@ -14,7 +14,7 @@
 
 		<button type="submit">Count</button>
 
-		<output>   </output>
+		<output></output>
 		
 		</div>
 	
@@ -41,9 +41,6 @@
 		}
 
 	})
-form.addEventListener('submit', function() {
-	$outlet.innerHTML = ``;
-});
 
 
 </script>
