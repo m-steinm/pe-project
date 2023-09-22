@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Counting Characters</title>
+</head>
+<body>
+	
+	<header>
+		<h1>Counting the Number of Characters</h1>
+	</header>
+	<form>
+
+		<field>
+
+			<label for="">What is the input string that you would like to count?</label>
+			<input id="string" type="text">
+
+		</field>
+
+		<button type="submit">Count</button>
+
+	</form>
+
+	<output>   </output>
+
+	<script>
+		
+		var form = document.querySelector('form');
+		var input = form.querySelector('input');
+		var output = document.querySelector('output');
+
+	form.addEventListener('submit', function(event){
+
+		event.preventDefault();
+
+	   if (input.value) {
+	   	var message = `${input.value} has ${input.value.length} characters (including spaces)`;
+	   	output.innerHTML = `<p>${message}</p>`;
+	   } else {
+	   	output.innerHTML = `<p>Please enter a string to count</p>`;
+	   }
+
+	})
+
+
+
+	</script>
+
+
+
+<!-- 
+	//ask for a string of characters 
+	//count the characters
+	//display the original string and the number of characters
+
+
+
+-->
+
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple Math</title>
+</head>
+
+<body>
+	<header>
+		<h1>Simple Math</h1>
+	</header>
+	
+	<form action="">
+		<field>
+			<label for="">What is the first number</label>
+			<input id="numberOne" type="number">
+		</field>	
+
+		<field>
+			<label for="">What is the second number</label>
+			<input id="numberTwo" type="number">
+		</field>	
+
+		<button type="submit">Calculate!</button>
+	</form>
+
+	<output>   </output>
+
+	<script>
+		var form = document.querySelector('form');
+		var input = form.querySelector('input');
+		var output = document.querySelector('output');
+
+		var numberOne = document.getElementById('numberOne');
+		var numberTwo = document.getElementById('numberTwo');
+
+	form.addEventListener('submit', function(event){
+
+				event.preventDefault();
+
+		if(input.value){
+			var sum = (+numberOne.value) + (+numberTwo.value);
+			var sumMessage = `${numberOne.value} + ${numberTwo.value} = ${sum}`;
+			// console.log(sumMessage);
+
+			var difference = (+numberOne.value) - (+numberTwo.value);
+			var difMessage = `${numberOne.value} - ${numberTwo.value} = ${difference}`;
+			// console.log(difMessage);
+
+			var product = (+numberOne.value) * (+numberTwo.value);
+			var pMessage = `${numberOne.value} * ${numberTwo.value} = ${product}`;
+			// console.log(pMessage);
+
+			var quotient = (+numberOne.value) / (+numberTwo.value);
+			var qMessage = `${numberOne.value} / ${numberTwo.value} = ${quotient}`;
+			// console.log(qMessage);
+
+			output.innerHTML = `What is the first number? ${numberOne.value}\n What is the second number? ${numberTwo.value}\n ${sumMessage} ${difMessage} ${pMessage} ${qMessage}`;
+
+		}
+
+	})	
+
+
+	</script>
+
+</body>
+</html>
+
+<!-- 
+
+	//ask for two numbers
+	//convert from strings to numbers
+	//calculate sum, difference and quotient
+	//display calculations
+
+ -->

@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+</head>
+
+<body>
+
+
+	<h1>JS Day 4</h1>
+
+	<p>First paragraph</p>
+
+	<p>I'm the secone paragraph</p>
+
+	<script>
+
+		// function shoutCoffee(coffee) {
+		// 	alert('this ' + coffee + ' is good!');
+		
+		// };
+		// shoutCoffee('ithaca');
+
+		var coffeeArray = ['light', 'medium', 'dark', 'burned', 'starbucks'];
+
+		function shoutCoffee(coffee){
+			console.log(coffee + " coffee is good!!!");
+		};
+
+		function printItem(item) {
+			var listItem = document.createElement ('li');
+			listItem.textContent = item;
+			document.body.appendChild(listItem);
+		}
+
+		// for (i=0; i < coffeeArray.length; i++) {
+		// 	shoutCoffee(coffeeArray[i]);
+		// }
+
+		// function doThings (anArray, aFunction) {
+		// 		for (i = 0; i < anArray.length; i++){
+		// 			aFunction(anArray[i]);
+		// 		}
+		// 	}
+
+		// 	doThings(coffeeArray, printItem);
+
+
+		
+		function renderItem(item, index, array){
+			console.log(array, index, item);
+		};
+
+		
+		coffeeArray.forEach(renderItem);
+
+
+	</script>
+
+</body>
+

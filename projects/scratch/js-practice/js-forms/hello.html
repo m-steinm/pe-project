@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Saying Hello</title>
+</head>
+
+<body>
+	
+<header>
+	<h1>Saying Hello</h1>
+</header>
+
+<form>
+	<field class="text">
+		<label for="">What is your name?</label>
+		<input id="userName" type="text" > 
+	</field>
+
+<button type="submit" name="submitted">Submit</button>
+
+</form>
+
+<output> </output>
+
+<script>
+console.clear();
+
+var form = document.querySelector('form');
+var input = form.querySelector('input');
+var output = document.querySelector('output');
+
+form.addEventListener('submit', function(event){
+
+	event.preventDefault();
+
+   if (input.value) {
+   	var message = `Hello, ${input.value}, nice to meet you.`;
+   	output.innerHTML = `<p>${message}</p>`;
+   } else {
+   	output.innerHTML = `<p>Please enter a name</p>`;
+   }
+
+})
+
+
+
+</script>
+
+
+
+
+
+<!-- //ask for users name
+//store the name in a variable
+//display a message that says "hello, (name), nice to meet you -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
