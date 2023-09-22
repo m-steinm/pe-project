@@ -32,8 +32,8 @@
 		var input = form.querySelector('input');
 		var output = document.querySelector('output');
 
-		var numberOne = document.getElementById('numberOne');
-		var numberTwo = document.getElementById('numberTwo');
+		var numberOne = document.querySelector('#numberOne');
+		var numberTwo = document.querySelector('#numberTwo');
 
 	form.addEventListener('submit', function(event){
 
@@ -56,7 +56,8 @@
 			var qMessage = `${numberOne.value} / ${numberTwo.value} = ${quotient}`;
 			// console.log(qMessage);
 
-			output.innerHTML = `What is the first number? ${numberOne.value}\n What is the second number? ${numberTwo.value}\n ${sumMessage} ${difMessage} ${pMessage} ${qMessage}`;
+			output.innerHTML = `What is the first number? ${numberOne.value}
+			What is the second number? ${numberTwo.value}\n${sumMessage}\n${difMessage}\n${pMessage}\n${qMessage}`;
 
 		}
 
