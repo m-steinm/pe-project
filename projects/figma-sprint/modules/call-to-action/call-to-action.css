@@ -1,6 +1,6 @@
 
 call-to-action  {
-	border: 2px solid red;
+/*	border: 2px solid red;*/
 	display: grid;
 /*	align-content: center;*/
 	background-color: #f8f9fe;
@@ -9,7 +9,7 @@ call-to-action  {
 }
 
 call-to-action p {
-	border: 2px solid blue;
+/*	border: 2px solid blue;*/
 	align-items: center;
 	text-align: center;
 
@@ -18,7 +18,7 @@ call-to-action p {
 call-to-action h1 {
 	text-align: center;
 	align-items: center;
-	border: 2px solid green;
+/*	border: 2px solid green;*/
 
 }
 

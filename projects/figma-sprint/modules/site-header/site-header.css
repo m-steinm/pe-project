@@ -3,7 +3,7 @@ site-header{
 	display: flex;
 	flex-directon: row;
 	justify-content:space-between;
-	border: 2px solid red;
+/*	border: 2px solid red;*/
 }
 
 .site-menu ul{

@@ -12,7 +12,7 @@ if ( isset($_GET['page']) ) {
 	$page = $_GET['page'];
 }
 
-$json = file_get_contents('data/home.json');
+$json = file_get_contents("data/$page.json");
 $homePageData = json_decode($json, true);
 
 ?>

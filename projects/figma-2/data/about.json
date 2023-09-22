@@ -3,25 +3,32 @@
 	"id": "home",
 	"theme": "default",
 	"sections": [
+
 		{
 			"id": "welcome",
 			"module": "hero",
 			"heading": "Hero module heading",
-			"intro": "Intro text here..."
+			"intro": "Intro text here...",
+			"theme": "wavy",
+			"actions": [
+				{
+					"type": "link",
+					"destination": "#",
+					"text": "Get started",
+					"style": "primary"
+				}
+			]
 		},
-		{
-			"id": "welcome-too",
-			"module": "hero"
-		},
+		
 		{
 			"id": "video",
-			"module": "video",
+			"module": "video"
 		},
 		{
 			"id": "features"
 		},
 		{
-			"id": "testimonials",
+			"id": "testimonials"
 		},
 		{
 			"id": "call-to-action"
