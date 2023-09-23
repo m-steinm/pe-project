@@ -88,6 +88,31 @@
 
 </form>
 
+<!-- <script src='retirement.js'></script> -->
+
+<script>
+	
+var form = document.querySelector('form');
+form.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+})
+
+var input = form.querySelector('input');
+var output = document.querySelector('output');
+
+var currentAge = form.querySelector("[name='currentAge']")
+var retirementAge = form.querySelector("[name='retirementAge']")
+
+
+function age(currentAge, retirementAge){
+	console.log(parseInt(currentAge) + parseInt(retirementAge));
+	
+}
+
+age(currentAge.value,retirementAge.value);
+
+</script>
 </inner-column>
 </section>
 
