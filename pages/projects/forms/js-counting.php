@@ -34,7 +34,7 @@
 	event.preventDefault();
 
 		if (input.value) {
-			var message = `${input.value} has ${input.value.length} characters (including spaces)`;
+			var message = `"${input.value}" has ${input.value.length} characters (including spaces)`;
 			output.innerHTML = `<p>${message}</p>`;
 			} else {
 			output.innerHTML = `<p>Please enter a string to count</p>`;

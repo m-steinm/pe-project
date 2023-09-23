@@ -42,9 +42,7 @@
 <?php 
 	if (isset($_POST["submitted"]) ) {
 	echo $message; 
-	} else {
-		
-	}
+	} else
 ?>
 </output>
 
