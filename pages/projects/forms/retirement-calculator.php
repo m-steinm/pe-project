@@ -92,31 +92,72 @@
 
 <script>
 	
+
 var form = document.querySelector('form');
-form.addEventListener('submit', function(event) {
-	event.preventDefault();
-
-})
-
 var input = form.querySelector('input');
 var output = document.querySelector('output');
 
 var currentAge = form.querySelector("[name='currentAge']")
 var retirementAge = form.querySelector("[name='retirementAge']")
 
+// form.addEventListener('submit', function (event) {
+// 	if (input.value) {
+// 		var messages = `you're current age is ${currentAge.value}`;
+// 		console.log(messages);
+// }
 
-function age(currentAge, retirementAge){
-	console.log(parseInt(currentAge) + parseInt(retirementAge));
-	
+// })
+
+
+function years(currentAge, retirementAge){
+	return (parseInt(retirementAge) - parseInt(currentAge) );
+		
 }
 
-age(currentAge.value,retirementAge.value);
+function buildMessage(){
+	var yearsLeft = years(currentAge.value, retirementAge.value);
+
+	if (yearsLeft == 1) {
+		return `you're current age is ${currentAge.value} and your desired retirment age is ${retirementAge.value}. You have ${yearsLeft} year left until you can retire`;
+	} else if (yearsLeft >= 2) {
+		return `you're current age is ${currentAge.value} and your desired retirment age is ${retirementAge.value}. You have ${yearsLeft} years left until you can retire`;
+	} else { 
+		return " Something is wrong. Maybe you should have retired already."
+	}
+	}
+
+function renderMessage(){
+	output.innerHTML = buildMessage();
+}
+
+function clearMessage(){
+	output.innerHTML = "";
+}
+
+form.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+	renderMessage();
+
+})
+
+form.addEventListener('input', function(event) {
+
+	clearMessage();
+
+})
 
 </script>
 </inner-column>
 </section>
 
+<!-- 
+	ask for current age
+	ask for desired retirement age
+	display how mnay years until retirement
+	display what year it is now and what year it will be when you can retire
 
+ -->
 
 
 
