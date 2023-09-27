@@ -37,4 +37,41 @@
 	</inner-column>
 </section>
 
+<script>
+	var cocktails = <?php echo json_encode($cocktailData) ?>;
+	var cocktailGrid = document.querySelector(".cocktail-grid");
+	function getHouseCocktails(){
+		var found = cocktails.filter( function(cocktail) {
+			return cocktail.house == true; 
+
+		});
+		return found;
+	}
+	console.log(getHouseCocktails());
+
+	function renderIngredients(ingredientsToRender){
+		var template = "";
+		ingredientsToRender.forEach( function(ingredient){
+			template = template + `<li>${ingredient}</li>`;
+		});
+
+		return template
+	}
+
+	function renderCocktails(cocktailsToRender){
+		var template = "";
+		cocktailsToRender.forEach( function(cocktail){
+			template = template + `
+				<li>
+					<h2 class="attention-voice"> ${cocktail.name} </h2>
+					${renderIngredients(cocktail.ingredients)}
+				</li>`;
+		});
+		cocktailGrid.innerHTML = template;
+	}
+
+	renderCocktails(cocktails);
+
+</script>
+
 

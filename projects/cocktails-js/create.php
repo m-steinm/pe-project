@@ -1,3 +1,5 @@
+
+
 <inner-column>
 <?php
 	
@@ -35,10 +37,12 @@
 				<input type="text" name="cocktail-name">
 			</field> 
 			
-<!-- 			<field>
+			<field>
 				<label>Base Spirit</label>
 				<input type="text" name="base" >
-
+				<label for="baseSpirit"></label>
+				<input id="baseSpirit" type="range" min="0" max="6" value="0" step=".25" />
+				<p><output id="value"></output> oz</p>
 			<field>
 				<label>First Ingredient</label>
 				<input type="text" name="first">
@@ -63,10 +67,41 @@
 				<label>Garnish</label>
 				<input type="text" name="fourth">
 			</field>
-		 -->
+		
 			<button type="submit" name="add">
 				Submit
 			</button>
+
+			<field class="cocktailType">
+				<legend>Cocktail Type</legend>
+
+				<div>
+				<input type="radio" id="House" name="cocktail" value="House" checked />
+				<label for="House">House</label>
+				</div>
+
+				<div>
+				<input type="radio" id="Classic" name="cocktail" value="Classic" />
+				<label for="Classic">Clasic</label>
+				</div>
+
+				<div>
+				<input type="radio" id="Retired" name="cocktail" value="Retired" />
+				<label for="Retired">Retired</label>
+				</div>
+			</field>
+
 		</form>
 	</inner-column>
 </section>
+
+<script>
+
+	const value = document.querySelector("#value");
+	const input = document.querySelector("#baseSpirit");
+	value.textContent = input.value;
+	input.addEventListener("input", (event) => {
+	  value.textContent = event.target.value;
+	});
+
+</script>

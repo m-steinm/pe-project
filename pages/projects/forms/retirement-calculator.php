@@ -44,7 +44,7 @@
 <inner-column>
 
 <form method="POST">
-	<h1 class="attention-voice"><a href="?page=form&id=retirement-calculator">Retirement Caculator</a></h1>
+	<h1 class="attention-voice"><a href="?page=form&id=retirement-calculator"> Caculator</a></h1>
 
 	<h2 class="calm-voice"><em>How many more years until you're ready to retire?</em></h2>
 
@@ -88,7 +88,7 @@
 
 </form>
 
-<!-- <script src='retirement.js'></script> -->
+<!-- <script src='projects/forms/retirement.js'></script> -->
 
 <script>
 	
@@ -118,7 +118,9 @@ function buildMessage(){
 	var yearsLeft = years(currentAge.value, retirementAge.value);
 
 	if (yearsLeft == 1) {
-		return `you're current age is ${currentAge.value} and your desired retirment age is ${retirementAge.value}. You have ${yearsLeft} year left until you can retire`;
+		return `
+			<p>you're current age is ${currentAge.value} and your desired retirment age is ${retirementAge.value}.</p>
+			<p> You have ${yearsLeft} year left until you can retire</p>`;
 	} else if (yearsLeft >= 2) {
 		return `you're current age is ${currentAge.value} and your desired retirment age is ${retirementAge.value}. You have ${yearsLeft} years left until you can retire`;
 	} else { 
@@ -142,7 +144,9 @@ form.addEventListener('submit', function(event) {
 })
 
 form.addEventListener('input', function(event) {
-
+	if (event.target.matches("[name='currentAge']")) { 
+		console.log('age')
+	}
 	clearMessage();
 
 })
@@ -158,7 +162,6 @@ form.addEventListener('input', function(event) {
 	display what year it is now and what year it will be when you can retire
 
  -->
-
 
 
 

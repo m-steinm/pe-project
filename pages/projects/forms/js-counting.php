@@ -29,12 +29,14 @@
 	var input = form.querySelector('input');
 	var output = document.querySelector('output');
 
-	form.addEventListener('submit', function(event){
+	form.addEventListener('input', function(event){
+		event.preventDefault();
 
-	event.preventDefault();
+		var wordArray = input.value.split(" ")
+		
 
 		if (input.value) {
-			var message = `"${input.value}" has ${input.value.length} characters (including spaces)`;
+			var message = `"${input.value}" has ${wordArray.length} characters (including spaces)`;
 			output.innerHTML = `<p>${message}</p>`;
 			} else {
 			output.innerHTML = `<p>Please enter a string to count</p>`;
@@ -57,5 +59,3 @@
 -->
 
 
-</body>
-</html>
