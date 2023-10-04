@@ -9,7 +9,7 @@ function print(note = ""){
 
 function add(project){
 	var todo = {
-		id: count++,
+		id: `a${count++}`,
 		project
 	};
 	todos.push(todo);
@@ -38,7 +38,7 @@ function update(id){
 add("coffee");
 add("water");
 
-//complete(1);
+complete(1);
 update(1, "wine");
 
 add("apple juice");
