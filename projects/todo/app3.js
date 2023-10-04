@@ -53,3 +53,11 @@ remove(1);
 
 complete(1);
 
+
+var name = "max";
+function sayName(){
+	var name ="sponegebob";
+	alert("I'm" + name);
+}
+sayName(name);
+
