@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Vegetables Data Test</h1>
+
+
+	<script src='data.js'></script>
+	<script>
+
+		// var vegetables = vegetablesData.data;
+
+		// for(i=0; i < vegetables.length; i++){
+		// 	console.log(vegetables[i].name);
+		// };
+		
+		//console.log(vegetablesData.data);
+//----------
+		// var veg = vegetablesData.data;
+
+		// function forEvery(anArray, aFunction){
+		// 	for(var i = 0; i < anArray.length; i++){
+		// 		aFunction(anArray[i], i, anArray)
+		// 	};
+		// };
+
+		// forEvery(veg, function(i){
+		// 	console.log(i.name[0])
+		// });
+//------------
+
+		/*
+	1. use the built-in Array method Array.forEach()
+	2. display each name of the fruit 
+	3. but also the index of that fruit to the left of it
+	4. but make sure that it starts with 1 instead of 0
+*/
+
+	// var veg = vegetablesData.data;	
+
+	// veg.forEach(function(cat, index){
+	// 	var index = index+1;
+	// 	console.log('item: ', index, cat.name)
+	// });
+
+//------------
+
+/*
+	1. use the built-in Array method Array.filter()
+	2. display onlythe items from the family "Rosaceae"
+	3. but also the index of that fruit to the left of it
+	4. and make sure that it starts with 1 instead of 0
+
+	5. try a bunch of filters! 
+      What about trying to filter things based on many property matches?
+*/
+
+	var veg = vegetablesData.data;
+	// function filterItems(arr, query) {
+	// 	return arr.filter((item) => item.includes(family[query]));
+	// }
+
+	// console.log(veg, "Rosaceae");
+	var result = veg.filter( (veg) => veg.family["Rosaceae"]);
+	console.log(result);
+
+
+
+
+
+//------------ understanding arrow functions
+	// const apes = ['orangutans', 'gorilla', 'chimp', 'human'];
+
+	// apes.forEach( function(ape) {
+	// 	return console.log('1', ape);
+	// });
+//---
+	// function printApe(cat) {
+	// 	return console.log('2', cat);
+	// };
+
+	// printApe(apes);
+//---
+	//apes.forEach( printApe );
+//---
+	//apes.forEach( (ape) => console.log('3', ape));
+
+//---
+	// apes.forEach( item => printApe(item) );
+
+//---
+	//apes.forEach( () => console.log('4'));
+//---
+	// apes.forEach( (ape)=> {
+	// 	 console.log('5', ape);
+	// });
+
+	// apes.forEach( function(ape) {
+	// 	 console.log('6, ape');
+	// });
+
+	</script>
+
+
+</body>
+</html>
