@@ -15,7 +15,7 @@ function add(content) {
 	};
 
 	todos.push(todo);
-	update(`Added ${content}`);
+	print(`Added ${content}`);
 }
 
 function remove(id) {
