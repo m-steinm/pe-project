@@ -31,8 +31,6 @@ function InventoryListApp(month){
 		var newPrice = oldPrice - dollarsOff;
 
 		//show the new price
-
-		
 	
 		console.log(`The price was reduced from ${oldPrice} by ${percent} percent to ${newPrice}`);
 	}
