@@ -1,0 +1,35 @@
+<!-- 
+//display home screen with two buttons
+//one button says cocktails
+//click to display a list of buttons for sorted cocktail recipes
+//one button says closing report
+// click to link to a form 
+//possibility to add other buttons
+ -->
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bar Book</title>	
+</head>
+
+<body>
+	<header>
+		<nav data-outlet="nav">
+			<button data-screen="cocktails">Cocktails</button>
+			<button data-screen="report">Closing Report</button>
+		</nav>
+	</header>
+
+	<main data-outlet="main">
+		<div class="home">
+			<h1>Bar Book</h1>
+		</div>
+	</main>
+
+
+<script src="main.js" type="module"></script>
+	
+</body>
+</html>
