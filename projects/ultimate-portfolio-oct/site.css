@@ -4,9 +4,22 @@ html {
 }
 
 
+inner-column {
+	display: block;
+	max-width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid red;
+}
 
 body {
 	background-color: wheat;
+}
+
+mast-head{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .site-menu ul{
@@ -20,4 +33,30 @@ body {
 .site-menu a {
 	display: block;
 	padding: 10px;
+}
+
+.site-header .logo circle {
+	fill: var(--ink);
+}
+
+graphic-diptych {
+	display: grid;
+	padding: 10vh 0;
+	border: 2px solid blue;
+}
+
+graphic-diptych .graphic {
+	background-color: black;
+	aspect-ratio: 3 / 2;
+}
+
+graphic-diptych .content {
+	padding: 20px;
+}
+
+@media (min-width: 600px) {
+	graphic-diptych {
+		grid-template-columns: 1fr 1fr;
+		gap: 30px;
+	}
 }

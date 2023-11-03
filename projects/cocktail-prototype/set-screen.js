@@ -27,7 +27,15 @@ var cocktailsData = [
 	{
 		id: "1",
 		name: "Old Fashioned",
-		category: "classic"
+		category: "classic",
+		base: "2 oz bourbon",
+		ingredients: [
+			 ".5 oz simple",
+			 "2 dashes agnostura bitter"
+			],
+		garnish: "orange peel",
+		notes: "it is a classic"
+
 	},	
 	{
 		id: 2,
@@ -61,7 +69,10 @@ function setDetailPage(id) {
 		return cocktail.id == id
 	})
 	//build out a template that uses that data
-	var template = `<h1>${found.name}</h1>`
+	var template = `<h1>${found.name}</h1>
+		<h2>${found.base}</h2>
+	`
+
 	//put template in the outlet
 	$outlet.innerHTML = template
 }

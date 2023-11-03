@@ -1,7 +1,23 @@
 <?php include('header.php'); ?>
 
-<h1>About</h1>
 
-<p>Lorem, ipsum <a href="contact.php">Contact</a> dolor sit amet, consectetur adipisicing elit. Animi praesentium, quo dignissimos porro dicta sint dolore earum accusantium debitis commodi provident expedita inventore perferendis minima doloremque voluptate! Vitae, aut, minus?</p>
+<header class='page-header'>
+	<inner-column>
+		<?php 
+		$pageTitle='About page title';
+		include('page-header.php');
+		?>
 
+	</inner-column>
+</header> 
+
+<section>
+	<inner-column>
+		<?php
+		$heading='Our new award';
+		$content="this is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page contenthis is the page content.";
+		include('graphic-diptych.php');
+		?>
+	</inner-column>
+</section>
 <?php include('footer.php'); ?>

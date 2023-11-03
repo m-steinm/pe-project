@@ -1,7 +1,12 @@
 <?php include('header.php'); ?>
 
-			<h1>Contact</h1>
-			
-			<p>Lorem, ipsum <a href="contact.php">Contact</a> dolor sit amet, consectetur adipisicing elit. Animi praesentium, quo dignissimos porro dicta sint dolore earum accusantium debitis commodi provident expedita inventore perferendis minima doloremque voluptate! Vitae, aut, minus?</p>
+<header class='page-header'>
+	<inner-column>
+		<?php 
+		$pageTitle='Contact page title';
+		include('page-header.php');
+		?>
 
+	</inner-column>
+</header> 
 <?php include('footer.php'); ?>
