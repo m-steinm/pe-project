@@ -2,7 +2,7 @@
 <inner-column>
 
 	<footer class='site-footer'>
-		<h2>footer...</h2>
+		<h2 class='attention-voice'>footer...</h2>
 	</footer>
 
 </inner-column>
