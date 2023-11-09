@@ -1,0 +1,40 @@
+.site-menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	gap: 20px;
+}
+
+/*.page-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid green;
+}
+
+.page-content + .front-page {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	border: 2px solid red;
+}
+
+.page-content, .about-page{
+	display: flex;
+	align-items: start;
+	justify-content: start;
+	border: 2px solid red;
+}
+
+@media (max-width: 600px) {
+	.page-content {
+		opacity: 10%;
+	}
+
+
+.page-content {
+	display: grid;
+	justify-content: start;
+*/

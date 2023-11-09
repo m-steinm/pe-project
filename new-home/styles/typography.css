@@ -1,0 +1,30 @@
+/* Should we pull in @fonts here? */
+/* don't think you can... might have to be higher up (the top of) the food chain! */
+
+body {
+	-webkit-font-smoothing: antialiased; /* because Brian said to */
+}
+
+.title-voice {
+	font-size: 150px;
+	font-family:'Eczar', serif;
+}
+
+.attention-voice{
+	font-family: 'Times New Roman', serif;	font-size: 30px;
+}
+
+.calm-voice {
+	font-size: 20px;
+	font-family: 'Times New Roman', serif;
+}
+
+.standard-voice {
+	font-size: 16px;
+	font-family: 'Times New Roman', serif;
+}
+
+.quiet-voice {
+	font-size: 12px;
+	font-family: 'Times New Roman', serif;
+}
