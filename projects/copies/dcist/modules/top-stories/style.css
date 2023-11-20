@@ -1,0 +1,26 @@
+main-container {
+	display: grid;
+	grid-template-columns: 1fr ;
+}
+
+
+
+top-story {
+
+/*	border: 2px solid red;*/
+}
+
+top-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: start;
+	gap: 10px;
+}
+
+@media (min-width: 900px) {
+main-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+}
+

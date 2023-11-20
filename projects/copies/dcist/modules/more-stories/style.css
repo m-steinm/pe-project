@@ -1,0 +1,11 @@
+latest-stories {
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end:4;
+	border: 5px solid red;
+}
+
+latest-stories graphic-diptych {
+	display: flex;
+	flex-directon: row;
+}
