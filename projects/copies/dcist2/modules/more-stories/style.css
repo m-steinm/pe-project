@@ -24,6 +24,26 @@ latest-stories graphic-diptych .content h2{
 	font-size: 1rem;
 	line-height: 1.4;
 	font-weight: 700;
-	margin-top: 10px;
+
+
+}
+
+@media (min-width: 1050px) {
+
+
+	latest-stories graphic-diptych {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-top: 10px;
+
+}
+
+	latest-stories graphic-diptych picture {
+		aspect-ratio: 3/2;
+		max-width: 400px;
+
+	}
 
 }

@@ -1,7 +1,7 @@
 	<?php
 
 	$heading = $heading ?? "Default heading here";
-	$content = $content ?? "Hey, you need some content here";
+	$content = $content ?? "Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.	 ";
 
 	?>
 

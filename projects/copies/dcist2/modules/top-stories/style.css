@@ -28,8 +28,6 @@ top-grid graphic-diptych {
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 10px;
-
-
 }
 
 top-grid graphic-diptych picture{
@@ -49,10 +47,82 @@ top-grid graphic-diptych .content h2{
 
 }
 
-/*@media (min-width: 900px) {
-main-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-}*/
+@media (min-width: 500px) {
 
+	main-container {
+/*		border: 2px solid green;*/
+	}
+
+	top-story graphic-diptych .content p {
+		display: unset;
+	}
+
+}
+
+
+@media (min-width: 700px) {
+	top-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 10px;
+	}
+
+	top-grid graphic-diptych {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	top-grid graphic-diptych .graphic picture {
+		aspect-ratio: 3/2;
+		max-width: 450px;
+	}
+
+}
+
+@media (min-width: 950px) {
+	main-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+	top-grid graphic-diptych {
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 1050px) {
+	latest-stories {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+	}
+
+	.latest {
+		display: grid;
+		grid-column-start: 2;
+		grid-column-end: 4;
+	}
+
+	latest-stories graphic-diptych {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+
+}
+
+	latest-stories graphic-diptych picture {
+		aspect-ratio: 1/1;
+		max-width: 100px;
+
+	}
+
+	}
+}
+
+}
