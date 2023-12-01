@@ -5,6 +5,59 @@ body {
 	-webkit-font-smoothing: antialiased; /* because Brian said to */
 }
 
+ .loud-voice {
+	font-family: 'Inter', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.attention-voice {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+
+.calm-voice {
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+
+.quiet-voice {
+	font-family: 'Inter', sans-serif;
+	font-size: .8rem;
+	font-weight: 400;
+}
+
+
+.micro-voice {
+	font-family: 'Inter', sans-serif;
+	font-size: .5rem;
+	font-weight: 400;
+}
+
+
+.bold-micro-voice {
+	font-family: 'Inter', sans-serif;
+	font-size: .5rem;
+	font-weight: 700;
+}
+
+
+top-story h2{
+	font-family: 'Inter', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+top-story p {
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
 /*.loud-voice {
 	font-family: sans-serif;
 	font-size: clamp(36px, 5vw, 60px);

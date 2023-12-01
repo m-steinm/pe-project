@@ -16,4 +16,4 @@
 
 	</ul>
 
-</latest-stories>
+</latest-stories> 

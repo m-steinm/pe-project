@@ -1,0 +1,9 @@
+main-container {
+	display: grid;
+	border: 3px solid tomato;
+	grid-template-areas: 
+		"top-story "
+		"top-grid top-grid"
+		"top-grid top-grid";
+
+}

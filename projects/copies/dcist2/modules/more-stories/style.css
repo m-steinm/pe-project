@@ -14,7 +14,7 @@ latest-stories graphic-diptych {
 }
 
 latest-stories graphic-diptych picture {
-	aspect-ratio: 1/1;
+/*	aspect-ratio: 1/1;*/
 	max-width: 100px;
 
 }

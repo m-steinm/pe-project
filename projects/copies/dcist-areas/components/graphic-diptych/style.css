@@ -1,0 +1,13 @@
+graphic-diptych {
+	display: grid;
+	gap: 20px;
+/*	border: 2px solid blue;*/
+}
+
+graphic-diptych picture {
+
+}
+
+graphic-diptych .content {
+	padding: 20px;
+}

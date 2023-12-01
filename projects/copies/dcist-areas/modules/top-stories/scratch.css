@@ -31,7 +31,7 @@ top-grid graphic-diptych {
 }
 
 top-grid graphic-diptych picture{
-/*	aspect-ratio: 1/1;*/
+	aspect-ratio: 1/1;
 	max-width: 100px;
 }
 
