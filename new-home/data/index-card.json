@@ -1,13 +1,59 @@
-{
-	"id": "1",
+[
+	{
+		"id": "1",
 
-	"title": "Card 1",
-	"blurb": "Here's a little blurb about card 1",
-	"link": "link text",
+		"title": "Card 1",
+		"blurb": "Here's a little blurb about card 1",
+		"linkText": "link text",
 
-	"keywords": [],
+		"keywords": [],
 
-	"color": "blue"
-},
+		"color": "blue"
+	},
+	{
+		"id": "1",
 
+		"title": "Card 2",
+		"blurb": "Here's a little blurb about card 1",
+		"linkText": "link text",
+
+		"keywords": [],
+
+		"color": "blue"
+	},
+	{
+		"id": "1",
+
+		"title": "Card 3",
+		"blurb": "Here's a little blurb about card 1",
+		"linkText": "link text",
+
+		"keywords": [],
+
+		"color": "blue"
+	},
+	{
+		"id": "1",
+
+		"title": "Card 4",
+		"blurb": "Here's a little blurb about card 1",
+		"linkText": "link text",
+
+		"keywords": [],
+
+		"color": "blue"
+	},
+	{
+		"id": "1",
+
+		"title": "Card 5",
+		"blurb": "Here's a little blurb about card 1",
+		"linkText": "link text",
+
+		"keywords": [],
+
+		"color": "blue"
+	}
+
+]
 

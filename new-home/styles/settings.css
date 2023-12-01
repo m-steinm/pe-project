@@ -25,8 +25,7 @@
 	display: flex;
 	align-items: start;
 	justify-content: start;
-	border: 2px solid red;
-}
+	border: 2px solid red }
 
 @media (max-width: 600px) {
 	.page-content {
@@ -38,3 +37,37 @@
 	display: grid;
 	justify-content: start;
 */
+
+html {
+	--paper: #efefef;
+	--ink: #222222;
+}
+
+body {
+	background: var(--paper);
+	color: var(--ink);
+}
+
+
+index-card {
+	--paper: #d8fef0;
+	--ink: #222222;
+
+	background: var(--paper);
+	color: var(--ink);
+}
+
+
+@media (prefers-color-scheme: dark) {
+	html{
+		--paper: #222222;
+		--ink: #efefef;
+	}
+
+	index-card {
+	--paper: #222222;
+	--ink: #d8fef0;
+
+}
+
+}
