@@ -1,0 +1,5 @@
+
+<trending class="story">
+	
+	
+</trending>

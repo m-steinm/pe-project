@@ -1,0 +1,64 @@
+{
+  "news_stories": [
+    {
+      "title": "Breakthrough in Clean Energy: Solar Panel Efficiency Hits Record High",
+      "subject": "Renewable Energy",
+      "description": "Scientists achieve a significant milestone in solar panel technology, reaching a record-breaking efficiency that could revolutionize clean energy production.",
+      "image_link": "https://example.com/solar_panel_image.jpg"
+    },
+    {
+      "title": "Global Summit Addresses Climate Crisis: World Leaders Unite for Sustainable Solutions",
+      "subject": "Climate Change",
+      "description": "Leaders from around the world converge to discuss urgent climate issues and collaborate on sustainable solutions to combat the escalating climate crisis.",
+      "image_link": "https://example.com/climate_summit_image.jpg"
+    },
+    {
+      "title": "Space Exploration Milestone: First Human Mission to Mars Successfully Launched",
+      "subject": "Space Exploration",
+      "description": "NASA's historic mission to send humans to Mars takes off without a hitch, marking a monumental step in the future of space exploration.",
+      "image_link": "https://example.com/mars_mission_image.jpg"
+    },
+    {
+      "title": "Advancements in AI: New Algorithm Achieves Human-level Language Comprehension",
+      "subject": "Artificial Intelligence",
+      "description": "Researchers unveil a groundbreaking AI algorithm that demonstrates human-level language comprehension, opening new possibilities in natural language processing.",
+      "image_link": "https://example.com/ai_algorithm_image.jpg"
+    },
+    {
+      "title": "Major Breakthrough in Medical Research: Promising Vaccine for Malaria Developed",
+      "subject": "Medical Science",
+      "description": "Scientists announce the successful development of a highly effective vaccine for malaria, bringing hope for the millions affected by this deadly disease.",
+      "image_link": "https://example.com/malaria_vaccine_image.jpg"
+    },
+    {
+      "title": "Tech Giants Collaborate for Cybersecurity: Joint Effort to Combat Rising Cyber Threats",
+      "subject": "Cybersecurity",
+      "description": "Leading tech companies join forces to address the growing cybersecurity challenges, pledging to enhance collaboration and share resources for a more secure digital environment.",
+      "image_link": "https://example.com/cybersecurity_collaboration_image.jpg"
+    },
+    {
+      "title": "Cultural Milestone: UNESCO Declares Ancient City as World Heritage Site",
+      "subject": "Cultural Heritage",
+      "description": "A centuries-old city is officially recognized as a UNESCO World Heritage Site, preserving its rich cultural and historical significance for future generations.",
+      "image_link": "https://example.com/world_heritage_image.jpg"
+    },
+    {
+      "title": "Economic Rebound: Global Markets Rally as Recovery Gains Momentum",
+      "subject": "Economy",
+      "description": "Positive economic indicators signal a strong global recovery as markets rally, bringing optimism for businesses and investors alike.",
+      "image_link": "https://example.com/economic_recovery_image.jpg"
+    },
+    {
+      "title": "Breakthrough in Cancer Research: Novel Treatment Shows Remarkable Success Rates",
+      "subject": "Medical Science",
+      "description": "Researchers announce a groundbreaking cancer treatment with unprecedented success rates, offering new hope for patients battling various forms of the disease.",
+      "image_link": "https://example.com/cancer_treatment_image.jpg"
+    },
+    {
+      "title": "Education Revolution: Innovative Learning Platform Transforms Traditional Teaching Methods",
+      "subject": "Education",
+      "description": "An innovative learning platform disrupts traditional teaching methods, providing a dynamic and personalized education experience for students worldwide.",
+      "image_link": "https://example.com/education_platform_image.jpg"
+    }
+  ]
+}

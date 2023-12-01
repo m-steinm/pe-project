@@ -1,0 +1,85 @@
+
+	.top-stories graphic-diptych .graphic + .content {
+		
+	}
+
+
+	.top-stories graphic-diptych .content h3+h2 {
+		margin-top: 5px;
+	}
+
+
+
+
+
+	.top-stories {
+		display: grid;
+		gap: 15px;
+	}
+
+	.top-story {
+		display: grid;
+		border-bottom: 2px solid #eee;
+	}
+
+	.top-story graphic-diptych .content{
+		margin-bottom: 10px;
+	}
+
+	.top-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 15px;
+	}
+
+	.top-grid .content > p {
+		display: none;
+	}
+
+
+
+
+
+
+
+@media(min-width: 950px){
+
+	.top-stories {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 15px;
+	}
+
+	.top-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 15px;
+	}
+
+	.top-grid .content > p {
+		display: none;
+	}
+}
+
+
+/*TYPOGRAPHY*/
+
+	.top-story graphic-diptych h2{
+		font-family: 'Inter', sans-serif;
+		font-size: 2rem;
+		font-weight: 700;
+	}
+
+	.top-story graphic-diptych p{
+		font-family: 'Inter', sans-serif;
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+	.top-grid graphic-diptych h2{
+		font-family: 'Inter', sans-serif;
+		font-size: 1.35rem;
+		font-weight: 700;
+	}

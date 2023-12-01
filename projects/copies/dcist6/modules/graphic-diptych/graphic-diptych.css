@@ -1,0 +1,28 @@
+graphic-diptych {
+	display: grid;
+/*	gap: 20px;*/
+}
+
+graphic {
+	display: grid;
+}
+graphic-diptych picture {
+}
+
+
+
+graphic-diptych h2+p {
+	margin-top: 20px;
+}
+
+graphic-diptych .category+.content-heading {
+	margin-top: 10px;
+}
+
+.category {
+	font-family: 'Inter', sans-serif;
+	font-size: .75rem;
+	font-weight: 700;
+	opacity: 40%;
+	text-transform: uppercase;
+}

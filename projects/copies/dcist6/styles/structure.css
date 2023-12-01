@@ -1,0 +1,65 @@
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* be at least a full viewport height */
+} 
+
+main {
+	flex-grow: 1; /* fill up available space + push the footer down */
+}
+
+inner-column {
+	display: block;
+	width: 98%;
+	max-width: 1100px; /* could be a variable in settings */
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 14px; /* a loose default */
+}
+
+/*.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}*/
+
+
+
+/*GRID*/
+
+/*@media (min-width: 700px){
+
+	.story-page {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		
+
+		grid-template-areas:
+			"top-story top-story top-story"
+			"sponsor sponsor ."
+			"events latest ."
+			"ed-pick latest."
+	}
+
+	.story-page > top-stories{
+		grid-area: top-story;
+	}
+
+	.story-page > sponsor{
+		grid-area: sponsor;
+	}
+
+	.story-page > events{
+		grid-area: events;
+	}
+	
+	.story-page > latest{
+		grid-area: latest;
+	}
+
+	.story-page > eds-pick{
+		grid-area: eds-pick;
+	}
+
+}	*/	
