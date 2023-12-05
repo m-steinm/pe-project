@@ -1,0 +1,20 @@
+graphic-diptych {
+	display: grid;
+/*	padding: 10vh 0;*/
+	border: 2px solid blue;
+}
+
+graphic-diptych picture {
+
+}
+
+graphic-diptych .content {
+	padding: 20px;
+}
+
+@media (min-width: 600px) {
+	graphic-diptych {
+		grid-template-columns: 1fr 1fr;
+		gap: 30px;
+	}
+}

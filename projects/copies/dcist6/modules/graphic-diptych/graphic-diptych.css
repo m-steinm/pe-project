@@ -6,10 +6,9 @@ graphic-diptych {
 graphic {
 	display: grid;
 }
-graphic-diptych picture {
+graphic-diptych .graphic+.content {
+	margin-top: 15px;
 }
-
-
 
 graphic-diptych h2+p {
 	margin-top: 20px;
