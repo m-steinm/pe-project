@@ -1,5 +1,4 @@
-{
-  "news_stories": [
+[
     {
       "heading": "Breakthrough in Clean Energy: Solar Panel Efficiency Hits Record High",
       "category": "Renewable Energy",
@@ -61,4 +60,4 @@
       "image_link": "https://example.com/education_platform_image.jpg"
     }
   ]
-}
+

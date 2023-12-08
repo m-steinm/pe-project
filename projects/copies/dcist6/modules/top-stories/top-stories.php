@@ -1,22 +1,28 @@
 
 
-
+<?php 
+	$json = file_get_contents("data/stories.json");
+	$stories = json_decode($json, true);
+	$top = array_splice($stories,0,1);
+	print_r($top);
+?>
 
 
 <div class="top-stories">
 	<div class="top-story">
-		<?php $heading = "test" ?>
+		<?php $article = $top[0]?>
 		<?php include('modules/graphic-diptych/graphic-diptych.php') ?>
-	</div class="top-story">
+		
+	</div>
 	
-
-
 	<div class="top-grid">
-		<?php $heading = "other" ?>
+	<?php foreach($stories as $article){?>
+
 		<?php include('modules/graphic-diptych/graphic-diptych.php') ?>
-		<?php include('modules/graphic-diptych/graphic-diptych.php') ?>
-		<?php include('modules/graphic-diptych/graphic-diptych.php') ?>
-		<?php include('modules/graphic-diptych/graphic-diptych.php') ?>
+		
+	<?php } ?>
+
+
 	</div>
 
 	

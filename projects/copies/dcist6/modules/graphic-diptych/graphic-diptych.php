@@ -1,7 +1,7 @@
 	<?php
 
-	$heading = $heading ?? "Default heading here";
-	$content = $content ?? "Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.	 ";
+	$heading = $article["heading"] ?? "Default heading here";
+	$content = $article["content"] ?? "Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.	 ";
 	$category = $category ?? "category tbd"
 	?>
 
@@ -23,3 +23,6 @@
 	</div>
 
 </graphic-diptych>
+
+
+<?php $article = null ?>
