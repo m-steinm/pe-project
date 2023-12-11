@@ -2,7 +2,7 @@
 
 	$heading = $article["heading"] ?? "Default heading here";
 	$content = $article["content"] ?? "Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.Hey, you need some content here.	 ";
-	$category = $category ?? "category tbd"
+	$category = $article["category"] ?? "category tbd"
 	?>
 
 <graphic-diptych>
